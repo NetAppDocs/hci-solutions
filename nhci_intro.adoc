@@ -53,8 +53,9 @@ NetApp HCI provides enterprise reliability and availability. Some of the importa
 ** Real-time replication (synchronous and asynchronous)
 ** Integrated backup and recovery (cloud)
 ** Data and performance availability regardless of system condition or application activity
-** Data safeguarded with 256-bit encryption
-+
+** Data safeguarded with 256-bit encryption  
+
+
 image::nhci_infrastructure.jpg[NetApp HCI Infrastructure components]
 
 == NetApp HCI Design Principles: Predictability, Flexibility, Simplicity
