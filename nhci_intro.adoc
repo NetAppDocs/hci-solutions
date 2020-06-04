@@ -56,7 +56,7 @@ NetApp HCI provides enterprise reliability and availability. Some of the importa
 ** Data safeguarded with 256-bit encryption
 
 .NetApp HCI Infrastructure components
-image::nhci_infrastructure.jpg[width=800]
+image::nhci_infrastructure.jpg
 
 == NetApp HCI Design Principles: Predictability, Flexibility, Simplicity
 NetApp HCI gives you flexible and straight forward control over your enterprise-class workloads. It is designed to provide predictable performance, linear scalability, and a simple deployment and management experience.
