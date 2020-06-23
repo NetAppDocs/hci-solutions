@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_reference_hardware_software_requirements.html
 summary: Reference NVA-1143 4.1 Hardware Requirements
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: H410C, H410S, Cisco Nexus, Mellanox, F5 Big-IP, Terraform
 ---
 
 = Hardware and Software Requirements: NetApp HCI with Anthos

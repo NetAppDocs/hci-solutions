@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_task_configure_management_switches.html
 summary: Task NVA-1143 5.2 Configure Management Switches
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: Cisco Nexus, IPMI, vPC
 ---
 
 = 1. Configure Management Switches: NetApp HCI with Anthos

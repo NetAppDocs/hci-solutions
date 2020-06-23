@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_task_enable_access_to_the_cluster.html
 summary: Task NVA-1143 5.11 Enable Access to the Cluster with the GKE Console
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: google cloud console, GKE, Kubernetes, Service Account
 ---
 
 = 10. Enable Access to the Cluster with the GKE Console: NetApp HCI with Anthos

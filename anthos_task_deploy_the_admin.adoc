@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_task_deploy_the_admin.html
 summary: Task NVA-1143 5.9 Deploy the Admin and the First User Cluster
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: Kubernetes, Terraform, GKE, vCenter
 ---
 
 = 8. Deploy the Admin and the First User Cluster: NetApp HCI with Anthos

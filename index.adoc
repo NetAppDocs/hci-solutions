@@ -14,24 +14,21 @@ keywords: netapp, hci, solutions, catalog, solution
 :imagesdir: ./media/
 
 [.lead]
-Welcome to the NetApp HCI solutions portal.
+NetApp HCI solutions can help you achieve performance at scale with multiple workloads on the same infrastructure without friction.
 
-Here, you will find detailed information for the solutions available on NetApp HCI  by using the navigation section on the left of this page.  Also included is additional collateral for our Sales and Partner teams.
+NetApp HCI eliminates the pain points of legacy IT operations that lead to infrastructure silos. Achieve your goals quickly and efficiently whether you are an IT, DevOps, or database team. NetApp HCI can help simplify your multi-application, multi-cloud environment.
 
-NetApp HCI Solutions expand the capabilities to deliver on use cases in areas such as:
-[width=100%,cols="2*",frame="none",grid="none"]
-|===
-a|
- * Public, Private, Hybrid and Multi Cloud
- * Containers and DevOps
- * Enterprise Applications
- * AI and GPU
-a|
- * End User Computing (EUC)
- * Data Fabric
- * Data Protection
- * Security
-|===
+image::HCI_Solution_intro.png[Introduction to HCI Solutions]
+
+*NetApp HCI Workloads*
+
+* *VMware.* Provides seamless performance at scale. Private Cloud supports a diverse mix of VMware users.
+* *SQL Databases.* Deliver web-scale engineering and enterprise availability for your database environment.
+* *Oracle.* Achieve efficiency, agility, and availability in your Oracle environment.
+* *SAP.* Provides the performance, availability, and simplified management for SAP applications.
+* *Splunk.* Takes the complexity out of managing infrastructure for Splunk and allows you to focus on the data.
+* *Citrix.* Provides work-from-home provisioning for today’s work force.
+* *Horizon view.* Provides work-from-home provisioning for today’s work force.
 
 == NetApp HCI End User Compute and Virtual Desktop Infrastructure Solutions
 The “work from home” or mobile workforce requirement has become the new reality for nearly every company in the world.  NetApp HCI End User Compute solutions deliver Virtual Desktop Infrastructures (VDI) solutions that address the needs of performance at scale, cost efficient provisioning and much more.
@@ -66,12 +63,3 @@ With NetApp HCI Private Cloud Sales and Partner Kits you have access to informat
 == Find more information:
 * https://www.netapp.com/us/documentation/hci.aspx[NetApp HCI Documentation Resources]
 * https://docs.netapp.com/hci/index.jsp[NetApp HCI Documentation Center]
-
-== Additional information (login required):
-* https://fieldportal.netapp.com/collections/895975[NetApp HCI Solutions Collection]
-* https://fieldportal.netapp.com/collections/783084[NetApp HCI VMware Private Cloud Collection]
-* https://fieldportal.netapp.com/collections/884534[NetApp HCI Red Hat Private Cloud Collection]
-* https://fieldportal.netapp.com/collections/810434[NetApp HCI Red Hat Openshift Container Platform Collection]
-* https://fieldportal.netapp.com/collections/639656[NetApp HCI End User Computing (EUC) Collection]
-* https://fieldportal.netapp.com/collections/901760[NetApp HCI Database Collection]
-* https://fieldportal.netapp.com/collections/901766[NetApp HCI Data Protection Collection]

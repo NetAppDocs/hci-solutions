@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_concept_solution_components.html
 summary: Concept NVA-1143 2.1 NetApp HCI
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: ESXi, Vmware, vSphere, Element
 ---
 
 = Solution Components: NetApp HCI with Anthos

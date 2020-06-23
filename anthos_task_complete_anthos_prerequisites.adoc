@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_task_complete_anthos_prerequisites.html
 summary: Task NVA-1143 5.7 Complete Anthos Prerequisites
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: Google Cloud, SDK, govc, Hashicorp, Terraform
 ---
 
 = 6. Complete Anthos Prerequisites: NetApp HCI with Anthos
@@ -14,7 +14,7 @@ keywords: hci, nva, netapp verified architecture, program, overview
 :imagesdir: ./media/
 
 [.lead]
-Now that the physical environment is set up, you can begin Anthos deployment. This starts with several prerequisites that you must meet to deploy the solution and access it afterward. Each of these steps are discussed in depth in the Anthos https://cloud.google.com/gke-on-prem/docs/[GKE On-Prem Guide]. 
+Now that the physical environment is set up, you can begin Anthos deployment. This starts with several prerequisites that you must meet to deploy the solution and access it afterward. Each of these steps are discussed in depth in the Anthos https://cloud.google.com/gke-on-prem/docs/[GKE On-Prem Guide].
 
 To prepare your environment for the deployment of Anthos on VMware, complete the following steps:
 

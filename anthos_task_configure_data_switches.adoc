@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_task_configure_data_switches.html
 summary: Task NVA-1143 5.3 Configure Data Switches
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: Mellanox, LACP, IPL, LLDP, MLAG, VLAN
 ---
 
 = 2. Configure Data Switches: NetApp HCI with Anthos

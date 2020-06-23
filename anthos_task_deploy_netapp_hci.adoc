@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_task_deploy_netapp_hci.html
 summary: Task NVA-1143 5.4 Deploy NetApp HCI with the NDE
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: NDE, vCenter, vSphere, Active IQ
 ---
 
 = 3. Deploy NetApp HCI with the NetApp Deployment Engine: NetApp HCI with Anthos

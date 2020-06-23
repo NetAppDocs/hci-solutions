@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_task_deploy_the_anthos_admin_workstation.html
 summary: Task NVA-1143 5.8 Deploy the Anthos Admin Workstation
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: virtual appliance, vCenter, vDS, Terraform, DHCP
 ---
 
 = 7. Deploy the Anthos Admin Workstation: NetApp HCI with Anthos

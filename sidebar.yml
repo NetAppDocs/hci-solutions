@@ -2,7 +2,7 @@ entries:
   - title: NetApp HCI Documentation
     url: https://docs.netapp.com/us-en/hci/index.html
   - title: NetApp HCI Sales & Partner Kits
-    url: sales-partner-kits.html
+    url: /sales-partner-kits.html
   - title: Private Cloud
     entries:
       - title: VMware Private Cloud (Design Guide)
@@ -18,7 +18,7 @@ entries:
   - title: End User Computing (EUC)
     entries:
       - title: EUC with VMware Horizon
-        url: nhci_euc_vmware.html
+        url: /nhci_euc_vmware.html
       - title: Citrix Virtual Apps and Desktops with VMware vSphere (Design Guide)
         url: https://www.netapp.com/us/media/nva-1140-design.pdf
       - title: NetApp HCI for Dassault Systèmes CATIA
@@ -39,44 +39,43 @@ entries:
             url: /anthos_abstract.html
             output: pdf
           - title: Overview and Business Value
-            url: anthos_concept_overview.html
+            url: /anthos_concept_overview.html
           - title: Solution Components
-            url: anthos_concept_solution_components.html
+            url: /anthos_concept_solution_components.html
           - title: Design Considerations
-            url: anthos_reference_design_considerations.html
+            url: /anthos_reference_design_considerations.html
           - title: Hardware and Software Requirements
-            url: anthos_reference_hardware_software_requirements.html
-          - title: Architecture Diagram
+            url: /anthos_reference_hardware_software_requirements.html
           - title: Deployment Steps
             entries:
               - title: Workflow Summary
-                url: anthos_reference_workflow_summary.html
+                url: /anthos_reference_workflow_summary.html
               - title: 1. Configure Management Switches
-                url: anthos_task_configure_management_switches.html
+                url: /anthos_task_configure_management_switches.html
               - title: 2. Configure Data Switches
-                url: anthos_task_configure_data_switches.html
+                url: /anthos_task_configure_data_switches.html
               - title: 3. Deploy NetApp HCI with the NetApp Deployment Engine
-                url: anthos_task_deploy_netapp_hci.html
+                url: /anthos_task_deploy_netapp_hci.html
               - title: 4. Configure the vCenter Server
-                url: anthos_task_configure_the_vcenter_server.html
+                url: /anthos_task_configure_the_vcenter_server.html
               - title: 5. Deploy and Configure the F5 Big-IP Virtual Edition Appliance
-                url: anthos_task_deploy_the_f5_big-ip.html
+                url: /anthos_task_deploy_the_f5_big-ip.html
               - title: 6. Complete Anthos Prerequisites
-                url: anthos_task_complete_anthos_prerequisites.html
+                url: /anthos_task_complete_anthos_prerequisites.html
               - title: 7. Deploy the Anthos Admin Workstation
-                url: anthos_task_deploy_the_anthos_admin_workstation.html
+                url: /anthos_task_deploy_the_anthos_admin_workstation.html
               - title: 8. Deploy the Admin and the First User Cluster
-                url: anthos_task_deploy_the_admin.html
+                url: /anthos_task_deploy_the_admin.html
               - title: 9. Deploy Additional User Clusters
-                url: anthos_task_deploy_additional_user_clusters.html
+                url: /anthos_task_deploy_additional_user_clusters.html
               - title: 10. Enable Access to the Cluster with the GKE Console
-                url: anthos_task_enable_access_to_the_cluster.html
+                url: /anthos_task_enable_access_to_the_cluster.html
               - title: 11. Install and Configure NetApp Trident Storage Provisioner
-                url: anthos_task_install_and_configure_trident.html
+                url: /anthos_task_install_and_configure_trident.html
           - title: Video Demos
-            url: anthos_reference_video_demos.html
+            url: /anthos_reference_video_demos.html
           - title: Additional Information
-            url: anthos_reference_addition_information.html
+            url: /anthos_reference_addition_information.html
   - title: Database
     entries:
       - title: MongoDB

@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_task_install_and_configure_trident.html
 summary: Task NVA-1143 5.12 Install and Configure NetApp Trident Storage Provisioner
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: Trident, ONTAP, AFF, FAS, SolidFire
 ---
 
 = 11. Install and Configure NetApp Trident Storage Provisioner: NetApp HCI with Anthos

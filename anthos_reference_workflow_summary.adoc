@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_reference_workflow_summary.html
 summary: Reference NVA-1143 5.1 Workflow Summary
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: NDE, Trident, vCenter, switches
 ---
 
 = Workflow Summary: NetApp HCI with Anthos

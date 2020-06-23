@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_reference_video_demos.html
 summary: Reference NVA-1143 Video Demos
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: Application Marketplace, Kubernetes, Trident, Persistent volume
 ---
 
 = Video Demos: NetApp HCI with Anthos

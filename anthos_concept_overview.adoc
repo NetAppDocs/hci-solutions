@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_concept_overview.html
 summary: Concept NVA-1143 program summary
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: Kubernetes, GKE, NVA-1141
 ---
 
 = Overview and Business Value: NetApp HCI with Anthos

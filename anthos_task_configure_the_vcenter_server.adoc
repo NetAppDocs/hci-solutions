@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_task_configure_the_vcenter_server.html
 summary: Task NVA-1143 5.5 Configure the vCenter Server
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: mnode, vCenter, F5 big-IP, VLAN
 ---
 
 = 4. Configure the vCenter Server: NetApp HCI with Anthos

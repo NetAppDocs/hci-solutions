@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_reference_addition_information.html
 summary: Where to Find Additional Information regarding NVA-1141
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: Anthos documentation, HCI, NDE, Trident, vSphere
 ---
 
 = Where to Find Additional Information: NetApp HCI with Anthos

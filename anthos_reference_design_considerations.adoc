@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_reference_design_considerations.html
 summary: Reference NVA-1143 3.1 Port Identification
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: Port Identification, Network Design, VLAN requirements, Best Practices, DRS, SnapMirror
 ---
 
 = Design Considerations: NetApp HCI with Anthos

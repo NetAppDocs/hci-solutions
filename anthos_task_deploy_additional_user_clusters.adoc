@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: anthos_task_deploy_additional_user_clusters.html
 summary: Task NVA-1143 5.10 Deploy Additional User Clusters
-keywords: hci, nva, netapp verified architecture, program, overview
+keywords: VM, kubect1, kebeconfig
 ---
 
 = 9. Deploy Additional User Clusters: NetApp HCI with Anthos
