@@ -26,7 +26,7 @@ NetApp HCI is available as compute nodes or storage nodes. Depending on the stor
 
 A management node (mNode) deployed on a compute node runs as a virtual machine on supported hypervisors. The mNode is used for sending data to ActiveIQ (a SaaS-based management portal), to host a hybrid cloud control portal, as a reverse proxy for remote support of NetApp HCI, and so on.
 
-NetApp HCI enables you to have nondistributive rolling upgrades. Even when one node is down, data is serviced from the other nodes. The following figure depicts NetApp HCI storage multitenancy features.
+NetApp HCI enables you to have nondisruptive rolling upgrades. Even when one node is down, data is serviced from the other nodes. The following figure depicts NetApp HCI storage multitenancy features.
 
 image:citrix_image2.png[Error: Missing Graphic Image]
 
