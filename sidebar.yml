@@ -262,6 +262,8 @@ entries:
         url: http://www.netapp.com/us/media/nva-1144.pdf
   - title: Security
     entries:
+      - title: HCI Verified Architecture PCI DSS 3.2.1 (login required)
+        url: https://fieldportal.netapp.com/content/1104499
       - title: NIST Security Controls for FISMA with HyTrust for Multitenant Infrastructure
         url: https://www.netapp.com/us/media/nva-1143.pdf
   - title: Solution Collection (login required)
