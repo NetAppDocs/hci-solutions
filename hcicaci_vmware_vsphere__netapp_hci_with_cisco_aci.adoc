@@ -182,6 +182,7 @@ a|* iSCSI VMkernel port migration is done one at a time from NDE deployed VDS to
 [NOTE]
 For traffic load balancing, port channel with vPCs can be used on Cisco ACI along with LAGs on ESXi hosts with LACP in active mode. However, using LACP can affect storage performance when compared to iSCSI multipathing.
 
+<<<<<<< HEAD
 == Red Hat Virtualization: NetApp HCI with Cisco ACI
 
 Red Hat Virtualization (RHV) is an enterprise virtual data center platform that runs on Red Hat Enterprise Linux using the KVM hypervisor.  The key components of RHV include Red Hat Virtualization Hosts (RHV- H) and the Red Hat Virtualization Manager (RHV- M). RHV-M provides centralized, enterprise-grade management for the physical and logical resources within the virtualized RHV environment. RHV-H is a minimal, light-weight operating system based on Red Hat Enterprise Linux that is optimized for the ease of setting up physical servers as RHV hypervisors. For more information on RHV, see the documentation https://access.redhat.com/documentation/en-us/red_hat_virtualization/4.3/[here^]. The following figure provides an overview of RHV.
@@ -259,3 +260,8 @@ Recommended to use vPC with LACP Active port-channel policy for interfaces towar
 Except for the ovirtmgmt logical network, it is possible to create all other infrastructure logical networks on Cisco APIC and map them to the VMM domain. ‘ovirtmgmt’ logical network uses the static path binding on the In-band management EPG attached with the physical domain.
 
 link:hcicaci_kvm_on_rhel__netapp_hci_with_cisco_aci.html[Next: KVM on RHEL: NetApp HCI with Cisco ACI]
+=======
+
+
+link:hchcicaci_RHV__netapp_hci_with_cisco_aci.html[Next: Red Hat Virtualization: NetApp HCI with Cisco ACI]
+>>>>>>> 1887b0929f6044e5b730cd50ba1d2170269f50f0

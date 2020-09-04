@@ -23,6 +23,7 @@ entries:
         url: https://www.netapp.com/us/media/tr-4837.pdf
       - title: HCI for Citrix Virtual Apps
         url: /citrix_executive_summary.html
+        type: solutions
         entries:
           - title: Abstract
             url: /citrix_abstract.html
@@ -50,6 +51,7 @@ entries:
   - title: Infrastructure
     entries:
       - title: NetApp HCI with Red Hat Virtualization
+        type: solutions
         entries:
           - title: Abstract
             url: /redhat_virtualization_abstract.html
@@ -101,6 +103,11 @@ entries:
             entries:
               - title: VMware vSphere
                 url: /hcicaci_vmware_vsphere__netapp_hci_with_cisco_aci.html
+<<<<<<< HEAD
+=======
+              - title: Red Hat Virtualization
+                url: /hcicaci_RHV__netapp_hci_with_cisco_aci.html
+>>>>>>> 1887b0929f6044e5b730cd50ba1d2170269f50f0
               - title: KVM on RHEL
                 url: /hcicaci_kvm_on_rhel__netapp_hci_with_cisco_aci.html
               - title: ONTAP on AFF
@@ -122,6 +129,7 @@ entries:
       - title: Red Hat Openshift Container Platform (Deployment Guide)
         url: https://www.netapp.com/us/media/nva-1124-deploy.pdf
       - title: NetApp HCI with Anthos
+        type: solutions
         entries:
           - title: Abstract
             url: /anthos_abstract.html
@@ -165,6 +173,7 @@ entries:
           - title: Additional Information
             url: /anthos_reference_addition_information.html
       - title: NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+        type: solutions
         entries:
           - title: Abstract
             url: /redhat_openshift_abstract.html
@@ -236,6 +245,7 @@ entries:
       - title: NetApp Scale-Out Data Protection with Commvault
         url: http://www.netapp.com/us/media/tr-4831.pdf
       - title: NetApp HCI Disaster Recovery with Cleondris
+        type: solutions
         entries:
           - title: Abstract
             url: /cleondris_abstract.html
