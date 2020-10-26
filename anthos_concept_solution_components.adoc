@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: anthos_concept_solution_components.html
-summary: Concept NVA-1143 2.1 NetApp HCI
+summary: NVA-1141
 keywords: ESXi, Vmware, vSphere, Element
 ---
 
-= Solution Components: NetApp HCI with Anthos
+= Solution Components
 
 :hardbreaks:
 :nofooter:
@@ -138,3 +138,5 @@ Anthos on VMware is an extension of Google Kubernetes Engine that is deployed in
 * *Develop Then Publish.* On-premises deployments can be used while applications are in development, which allows for testing of applications in the privacy of a local data center before being made publicly available in the cloud.
 
 * *Security Requirements.* Customers with increased security concerns or sensitive data sets that cannot be stored in the public cloud are able to run their applications from the security of their own data centers, thereby meeting organizational requirements.
+
+link:anthos_reference_design_considerations.html[Next: Design Considerations]

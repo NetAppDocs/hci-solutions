@@ -5,7 +5,7 @@ summary: Task NVA-1143 5.9 Deploy the Admin and the First User Cluster
 keywords: Kubernetes, Terraform, GKE, vCenter
 ---
 
-= 8. Deploy the Admin and the First User Cluster: NetApp HCI with Anthos
+= 8. Deploy the Admin and the First User Cluster
 
 :hardbreaks:
 :nofooter:

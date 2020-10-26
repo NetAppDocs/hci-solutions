@@ -31,6 +31,5 @@ End User Computing on NetApp HCI with VMware Horizon is a set of fully validated
 * link:https://www.netapp.com/us/media/nva-1129-design.pdf[NVA: EUC with VMware and NVIDIA GPUs (Design Guide)]
 * link:https://www.netapp.com/us/media/nva-1129-deploy.pdf[NVA: EUC with VMware and NVIDIA GPUs(Deployment Guide)]
 * link:https://www.netapp.com/us/media/tr-4792.pdf[TR: EUC with VMware for 3D Graphics]
-* link:https://www.netapp.com/us/media/tr-4630.pdf[TR: EUC with VMware Horizon 7]
 
 == Additional Material

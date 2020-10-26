@@ -28,3 +28,5 @@ This deployment is divided into the following high-level tasks:
 9. Deploy additional user clusters
 10. Enable access to the cluster with the GKE console
 11. Install and configure NetApp Trident storage provisioner
+
+link:anthos_task_configure_management_switches.html[Next: Configure Management Switches]

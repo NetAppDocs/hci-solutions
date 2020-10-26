@@ -5,7 +5,7 @@ summary: Task NVA-1143 5.4 Deploy NetApp HCI with the NDE
 keywords: NDE, vCenter, vSphere, Active IQ
 ---
 
-= 3. Deploy NetApp HCI with the NetApp Deployment Engine: NetApp HCI with Anthos
+= 3. Deploy NetApp HCI with the NetApp Deployment Engine
 
 :hardbreaks:
 :nofooter:
@@ -91,3 +91,5 @@ NOTE:	If you want to enable Active IQ, verify that your management network can r
 17. A summary page appears along with a progress bar for each component of the NetApp HCI solution, as well as the overall solution. When complete, you are presented with an option to launch the vSphere client and begin working with your environment.
 +
 image::nda_setup_complete.PNG[Your Setup is Complete]
+
+link:anthos_task_configure_the_vcenter_server.html[Next: Configure the vCenter Server]

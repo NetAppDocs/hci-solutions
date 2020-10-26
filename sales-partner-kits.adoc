@@ -75,7 +75,7 @@ link:https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ea08cb48-cae
 link:https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2e71f12f-8c09-41cd-8027-abc700e7298d[Introduction to NetApp HCI Private Cloud] (2:05)
 
 * Animated introductions to NetApp HCI differentiation
-link:https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b8979290-08d9-4194-95d2-abc700e735c4[The value for solutions with NetApp disaggregated HCI] (1:57)
+link:https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4817364a-97e8-4ab8-91f3-ac060161f56f[The value for solutions with NetApp disaggregated HCI] (2:09)
 link:https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c169f8a7-a329-4199-95e2-abc700e7303b[NetApp HCI solution ROI value by eliminating the HCI tax] (2:56)
 |===
 

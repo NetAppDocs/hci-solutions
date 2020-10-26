@@ -95,6 +95,7 @@ Cisco ACI provides many advantages over traditional networking. Programmability 
 ** Simplified networking configuration for virtual workloads because the port-group or VM NIC profiles required to attach to the VMs are created automatically. For more information on Cisco ACI VMM integration, see the https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/1-x/aci-fundamentals/b_ACI-Fundamentals/b_ACI-Fundamentals_chapter_01011.html[Cisco documentation^]. In addition, see the Cisco ACI https://www.cisco.com/c/dam/en/us/td/docs/Website/datacenter/aci/virtualization/matrix/virtmatrix.html[virtualization compatibility matrix^] for version compatibility details.
 
 * *Micro-segmentation.* Micro-segmentation in Cisco ACI allows you to classify the endpoints in existing application EPGs into microsegment (uSeg) EPGs using network-based or VM-based attributes. This helps for filtering the endpoints more granularly and apply specific dynamic policies on those endpoints. Micro-segmentation can be applied to any endpoints within the tenant. Cisco supports micro-segmentation on a variety of virtual switches - Cisco ACI Virtual Edge, VMware VDS and Microsoft vSwitch. uSeg EPGs can be configured with multiple attributes but an endpoint can be assigned to only one EPG. For more details, see the https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/3-x/virtualization/Cisco-ACI-Virtualization-Guide-3-2-x/Cisco-ACI-Virtualization-Guide-3-2-x_chapter_0100.html[Cisco ACI Virtualization guide^] for the specific version.
+
 * *Intra-EPG Isolation.* By default, all endpoints belonging to the same EPG can communicate with each other. Intra-EPG Isolation in Cisco ACI is a feature to prevent endpoints in the same EPG communicate with each other. It achieves isolation by using different VLANs for traffic from ACI leaf to hypervisor hosts and from hypervisor hosts to ACI leaf. Intra-EPG isolation can be enforced on both application EPGs and microsegment EPGs. See the specific version of the https://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/3-x/virtualization/Cisco-ACI-Virtualization-Guide-3-2-x/Cisco-ACI-Virtualization-Guide-3-2-x_chapter_0101.html[Cisco ACI virtualization guide^] for more information.
 
 == Architectural Diagram
@@ -113,7 +114,7 @@ The following tables list the hardware and software compute resources utilized i
 |Hardware |Model |Quantity
 
 |NetApp HCI compute nodes
-|NetApp H500E
+|NetApp H410C
 |6
 |===
 
@@ -145,7 +146,7 @@ The following tables list the hardware and software storage resources used in th
 |Hardware |Model |Quantity
 
 |NetApp HCI storage nodes
-|NetApp H500S
+|NetApp H410S
 |4
 |AFF
 |A200

@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: anthos_concept_overview.html
-summary: Concept NVA-1143 program summary
+summary: Concept NVA-1141 program summary
 keywords: Kubernetes, GKE, NVA-1141
 ---
 
-= Overview and Business Value: NetApp HCI with Anthos
+= NVA-1141: NetApp HCI with Anthos, Design and Deployment
 
 :hardbreaks: ;
 :nofooter:
@@ -13,7 +13,7 @@ keywords: Kubernetes, GKE, NVA-1141
 :linkattrs:
 :imagesdir: ./media/
 
-[.lead]
+Alan Cowles
 
 The program solutions described in this document are designed and thoroughly tested to minimize deployment risks and accelerate time to market.
 
@@ -37,3 +37,5 @@ With NetApp HCI for Anthos, you can deploy a fully integrated, production-grade 
 ** Deploy Anthos GKE instances in Google Cloud or on NetApp HCI
 
 The NetApp Verified Architecture program gives customers reference configurations and sizing guidance for specific workloads and use cases.
+
+link:anthos_concept_solution_components.html[Next: Solution Components]

@@ -5,7 +5,7 @@ summary: Task NVA-1143 5.2 Configure Management Switches
 keywords: Cisco Nexus, IPMI, vPC
 ---
 
-= 1. Configure Management Switches: NetApp HCI with Anthos
+= 1. Configure Management Switches
 
 :hardbreaks:
 :nofooter:
@@ -151,3 +151,5 @@ Switch-01(config-if)# spanning-tree port type network
 Switch-01(config-if)# vpc peer-link
 Switch-01(config-if)# exit
 ----
+
+link:anthos_task_configure_data_switches.html[Next: Configure Data Switches]

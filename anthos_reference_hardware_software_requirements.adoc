@@ -5,7 +5,7 @@ summary: Reference NVA-1143 4.1 Hardware Requirements
 keywords: H410C, H410S, Cisco Nexus, Mellanox, F5 Big-IP, Terraform
 ---
 
-= Hardware and Software Requirements: NetApp HCI with Anthos
+= Hardware and Software Requirements
 
 :hardbreaks:
 :nofooter:
@@ -48,3 +48,5 @@ The following table lists the software components that are required to implement
 | HashiCorp Terraform | Automation and provisioning | 0.12.12
 | NetApp Trident | Storage management | 19.10
 |===
+
+link:anthos_reference_workflow_summary.html[Next: Workflow Summary]

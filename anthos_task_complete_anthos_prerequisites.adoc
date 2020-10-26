@@ -5,7 +5,7 @@ summary: Task NVA-1143 5.7 Complete Anthos Prerequisites
 keywords: Google Cloud, SDK, govc, Hashicorp, Terraform
 ---
 
-= 6. Complete Anthos Prerequisites: NetApp HCI with Anthos
+= 6. Complete Anthos Prerequisites
 
 :hardbreaks:
 :nofooter:
@@ -213,3 +213,5 @@ c. With the stackdriver service account, assign the roles for `stackdriver.resou
 --member "serviceAccount: stackdriver-service-account@anthos-dev.iam.gserviceaccount.com”\
 --role "roles/monitoring.metricWriter”
 ----
+
+link:anthos_task_deploy_the_anthos_admin_workstation.html[Next: Deploy the Anthos Admin Workstation]

@@ -5,7 +5,7 @@ summary: Task NVA-1143 5.8 Deploy the Anthos Admin Workstation
 keywords: virtual appliance, vCenter, vDS, Terraform, DHCP
 ---
 
-= 7. Deploy the Anthos Admin Workstation: NetApp HCI with Anthos
+= 7. Deploy the Anthos Admin Workstation
 
 :hardbreaks:
 :nofooter:
@@ -373,3 +373,5 @@ Outputs:
 
 ip_address = 10.63.172.21
 ----
+
+link:anthos_task_deploy_the_admin.html[Next: Deploy the Admin and the First User Cluster]
