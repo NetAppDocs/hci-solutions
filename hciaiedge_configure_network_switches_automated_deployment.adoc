@@ -73,8 +73,11 @@ The `pre-ansible` configuration file created can be used to restore the switchâ€
 +
 The switch configuration for this solution is stored in the `post-ansible` configuration file.
 +
+. The configuration playbook for Mellanox switches that follows best practices and requirements for NetApp HCI can be downloaded from url[https://mysupport.netapp.com/site/tools/tool-eula/hci-toolkit^].
 [NOTE]
-The configuration playbook for Mellanox switches that follows best practices and requirements for NetApp HCI can be downloaded here.
+The toolkit also provides a playbook to setup Cisco Nexus switches with similar best practices and requirements for NetApp HCI
+[NOTE]
+Additional guidance on populating the variables and executing the playbook is available in the respective switch README.md file.
 +
 . Fill out the credentials to access the switches and variables needed for the environment. The following text is a sample of the variable file for this solution.
 +
