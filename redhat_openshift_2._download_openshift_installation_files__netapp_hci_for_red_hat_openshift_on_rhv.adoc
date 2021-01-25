@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: redhat_openshift_2._download_openshift_installation_files__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: OpenShift, Installation, Cluster, Container, Platform
-summary:
+summary: This page describes how to download the necessary OpenShift Installation files.
 ---
 
-= 2. Download OpenShift Installation Files: NetApp HCI for Red Hat OpenShift on RHV
+= 2. Download OpenShift Installation Files
 :hardbreaks:
 :nofooter:
 :icons: font

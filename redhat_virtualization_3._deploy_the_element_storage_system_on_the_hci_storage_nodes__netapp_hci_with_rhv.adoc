@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_3._deploy_the_element_storage_system_on_the_hci_storage_nodes__netapp_hci_with_rhv.html
 keywords: Storage setup, SolidFire, Element Cluster, Bond1G
-summary:
+summary: NetApp Element cluster setup is performed in a manner similar to a standalone NetApp SolidFire storage setup. These steps begin after the nodes have been racked, and cabled, and the IPMI port has been configured on each node using the console. To setup a storage cluster, complete the steps listed on this page.
 ---
 
 = 3. Deploy the Element Storage System on the HCI Storage Nodes: NetApp HCI with RHV

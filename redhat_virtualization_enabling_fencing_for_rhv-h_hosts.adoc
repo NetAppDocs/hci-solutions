@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_enabling_fencing_for_rhv-h_hosts.html
 keywords: fencing, high availability, VM, power management
-summary:
+summary: Fencing is a process by which the RHV Manager can provide high availability of the VMs in the environment by automatically shutting down a non-responsive hypervisor host. With fencing enabled, the RHV environment is configured to support a highly available deployment should one of the hypervisor nodes become nonresponsive.
 ---
 
 = Enabling Fencing for RHV-H Hosts: NetApp HCI with RHV

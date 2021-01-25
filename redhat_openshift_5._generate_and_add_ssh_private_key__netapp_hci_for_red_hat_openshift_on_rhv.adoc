@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: redhat_openshift_5._generate_and_add_ssh_private_key__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: SSH, Private Key
-summary:
+summary: This page describes the steps necessary to generate and add an SSH private key.
 ---
 
-= 5. Generate and Add SSH Private Key: NetApp HCI for Red Hat OpenShift on RHV
+= 5. Generate and Add SSH Private Key
 :hardbreaks:
 :nofooter:
 :icons: font

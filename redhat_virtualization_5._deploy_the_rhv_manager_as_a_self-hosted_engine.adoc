@@ -2,8 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_5._deploy_the_rhv_manager_as_a_self-hosted_engine.html
 keywords: install, virtualization manager, self-hosted, hosted engine, RHV
-
-summary:
+summary: This page describes the detailed steps for installing the Red Hat Virtualization Manager as a self-hosted engine. These steps begin after the RHV hosts are registered and the Cockpit GUI is accessible.
 ---
 
 = 5. Deploy the RHV Manager as a Self-Hosted Engine: NetApp HCI with RHV

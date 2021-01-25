@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hcicaci_ontap_select_with_vmware_vsphere__netapp_hci_and_cisco_aci.html
 keywords: ONTAP Select, SDS, software-defined storage, IoT, tactical,
-summary: TR-4857
+summary: NetApp ONTAP Select is the NetApp solution for software-defined storage (SDS), bringing enterprise-class storage management features to the software-defined data center. ONTAP Select extends ONTAP functionality to extreme edge use cases including IoT and tactical servers as a software-defined storage appliance that acts as a full storage system. It can run as a simple VM on top of a virtual environment to provide a flexible and scalable storage solution.
 ---
 
 = ONTAP Select with VMware vSphere: NetApp HCI and Cisco ACI

@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: redhat_openshift_1._create_storage_network_vlan__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: Storage, Network, VLAN, Element, Trident, SVIP
-summary:
+summary: To support Element storage access for NetApp Trident to attach persistent volumes to pods deployed in OpenShift, the machine network being used for each worker in the OCP deployment must be able to reach the storage resources. If the machine network cannot access the Element storage network by default, an additional network/VLAN can be created in the Element cluster to allow access.
 ---
 
-= 1. Create Storage Network VLAN: NetApp HCI for Red Hat OpenShift on RHV
+= 1. Create Storage Network VLAN
 :hardbreaks:
 :nofooter:
 :icons: font

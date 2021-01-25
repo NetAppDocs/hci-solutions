@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_nva-1144_netapp_hci_ai_inferencing_at_the_edge_data_center_with_h615c_and_t4.html
 keywords: NVA-1144, NVA1144, 1144, inferencing, AI, artificial intelligence, ML, machine learning, Triton, NVIDIA, Kubernetes, DeepOps,
-summary:
+summary: This document describes how NetApp HCI can be designed to host artificial intelligence (AI) inferencing workloads at edge data center locations. The design is based on NVIDIA T4 GPU-powered NetApp HCI compute nodes, an NVIDIA Triton Inference Server, and a Kubernetes infrastructure built using NVIDIA DeepOps. The design also establishes the data pipeline between the core and edge data centers and illustrates implementation to complete the data lifecycle path.
 ---
 
 = NVA-1144: NetApp HCI AI Inferencing at the Edge Data Center with H615c and NVIDIA T4

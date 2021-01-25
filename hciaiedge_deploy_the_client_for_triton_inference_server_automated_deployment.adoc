@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_deploy_the_client_for_triton_inference_server_automated_deployment.html
 keywords:
-summary:
+summary: To deploy the client for the Triton Inference Server, complete the steps listed on this page.
 ---
 
 = Deploy the Client for Triton Inference Server (Automated Deployment)

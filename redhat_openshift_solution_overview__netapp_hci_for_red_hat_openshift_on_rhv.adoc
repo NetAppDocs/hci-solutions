@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_openshift_solution_overview__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: NVA-1149, Red Hat, virtualization, Openshift, containers, containerized, Trident, KVM, RHV-M
-summary:
+summary: NetApp HCI for Red Hat OpenShift on Red Hat Virtualization (RHV) is a best-practice deployment guide for the fully automated install of Red Hat OpenShift through the Installer Provisioned Infrastructure (IPI) method onto the verified enterprise architecture of NVA-1148: NetApp HCI with Red Hat Virtualization.
 ---
 
 = NVA-1149: NetApp HCI for Red Hat OpenShift on Red Hat Virtualization

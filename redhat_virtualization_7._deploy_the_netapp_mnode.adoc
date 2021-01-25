@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_7._deploy_the_netapp_mnode.html
 keywords: mnode, management node, Element, monitoring, telemetry, diagnositic tests, utilities
-summary:
+summary: The management node (mNode) is a VM that runs in parallel with one or more Element software-based storage clusters. To install the NetApp mNode on Red Hat Virtualization, complete the steps listed on this page.
 ---
 
 = 7. Deploy the NetApp mNode: NetApp HCI with RHV

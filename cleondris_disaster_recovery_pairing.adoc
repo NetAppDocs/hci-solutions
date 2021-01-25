@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: cleondris_disaster_recovery_pairing.html
 keywords: protection, replication wizard, protected volumes, DR site
-summary:
+summary: This page describes disaster recovery pairing for NetApp HCI DR with Cleondris.
 ---
 
 = Disaster Recovery Pairing: NetApp HCI DR with Cleondris

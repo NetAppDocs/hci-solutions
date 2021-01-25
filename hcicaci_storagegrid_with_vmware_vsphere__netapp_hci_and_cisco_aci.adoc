@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hcicaci_storagegrid_with_vmware_vsphere__netapp_hci_and_cisco_aci.html
 keywords: StorageGRID, storage tiering
-summary: TR-4857
+summary: StorageGRID is a robust software-defined, object-based storage platform that stores and manages unstructured data with a tiered approach along with intelligent policy-driven management. It allows you to manage data while optimizing durability, protection, and performance. StorageGRID can also be deployed as hardware or as an appliance on top of a virtual environment that decouples storage management software from the underlying hardware.
 ---
 
 = StorageGRID with VMware vSphere: NetApp HCI and Cisco ACI

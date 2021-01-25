@@ -2,8 +2,7 @@
 sidebar: sidebar
 permalink: redhat_openshift_validation_results__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: best practices, CI/CD, Continuous integration, continuous deployment, Jenkins, PVC
-
-summary:
+summary: This section provides the steps to deploy a continuous integration/continuous delivery or deployment (CI/CD) pipeline with Jenkins in order to validate the operation of the solution.
 ---
 
 = Validation Results: NetApp HCI for Red Hat OpenShift on RHV

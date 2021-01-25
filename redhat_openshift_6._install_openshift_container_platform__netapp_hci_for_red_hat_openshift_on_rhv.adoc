@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: redhat_openshift_6._install_openshift_container_platform__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: Container platform, installation
-summary:
+summary: This page describes the steps necessary to install the OpenShift Container Platform.
 ---
 
-= 6. Install OpenShift Container Platform: NetApp HCI for Red Hat OpenShift on RHV
+= 6. Install OpenShift Container Platform
 :hardbreaks:
 :nofooter:
 :icons: font

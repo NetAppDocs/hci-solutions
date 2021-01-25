@@ -2,8 +2,7 @@
 sidebar: sidebar
 permalink: redhat_openshift_best_practices_for_production_deployments.html
 keywords: best practices, VM, Virtual Machine, Host affinity, custom install file, customized install
-
-summary:
+summary: This section lists the following best practices for deploying this solution into production; deploy OpenShift to an RHV Cluster of at least three nodes, configure the virtual machine/host affinity, and use a custom install file for OpenShift deployment.
 ---
 
 = Best Practices for Production Deployments: NetApp HCI for Red Hat OpenShift on RHV

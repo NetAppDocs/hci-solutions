@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_solution_overview__netapp_hci_with_rhv.html
 keywords: NVA-1148, HCI, Design, hyperconverged infrastructure, best practices, Element, QoS, RHV, Red Hat, virtualization
-summary:
+summary: This architecture reference document serves as both a design guide and a deployment validation of the Red Hat Virtualization solution on NetApp HCI. The architecture described in this document has been validated by subject matter experts at NetApp and Red Hat to provide a best-practice implementation for an enterprise virtual datacenter deployment using Red Hat Virtualization on NetApp HCI within your own enterprise datacenter environment.
 ---
 
 = NVA-1148: NetApp HCI with Red Hat Virtualization

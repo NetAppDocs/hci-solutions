@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_4._deploy_the_rhv-h_hypervisor_on_the_hci_compute_nodes__netapp_hci_with_rhv.html
 keywords: self-hosted, RHV-H hypervisor, HCI, compute nodes, VLAN, bond configuration
-summary:
+summary: This solution employs the recommended self-hosted engine architecture of RHV deployment with the minimum setup (two self-hosted engine nodes). These steps begin after the nodes have been racked and cabled and the IPMI port has been configured on each node for using the console. To deploy the RHV-H hypervisor on HCI compute nodes, complete the steps listed on this page.
 ---
 
 = 4. Deploy the RHV-H Hypervisor on the HCI Compute Nodes: NetApp HCI with RHV

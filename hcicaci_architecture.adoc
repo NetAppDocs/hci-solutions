@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hcicaci_architecture.html
 keywords: StorageGRID, QoS, Cisco ACI Virtual Edge, AVE, VMware distributed switch, VDS, Linux bridge, open vswitch, software, hardware, NetApp Hybrid Cloud Control, performance, interoperability,
-summary: TR-4857
+summary: This document outlines the best practices to follow for a fully featured on-premises data center or private cloud while interoperating NetApp HCI with Cisco ACI. To demonstrate workload independence, networking best practices are extended to virtualization solutions and other storage solutions like NetApp ONTAP and StorageGRID. It also emphasizes the interoperability of Cisco ACI switches with different virtual switches.
 ---
 
 = Architecture

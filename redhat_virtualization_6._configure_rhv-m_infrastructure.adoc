@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_6._configure_rhv-m_infrastructure.html
 keywords: ovirtmgmt network, RHV-M infrastructure, configuration
-summary:
+summary: This page describes how to configure the RHV-M architecture.
 ---
 
 = 6. Configure RHV-M Infrastructure: NetApp HCI with RHV

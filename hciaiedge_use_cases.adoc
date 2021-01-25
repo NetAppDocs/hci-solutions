@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_use_cases.html
 keywords:
-summary:
+summary: The NetApp HCI AI inferencing solution, powered by NetApp H615c compute nodes with NVIDIA T4 GPUs and NetApp cloud-connected storage systems, was developed and verified by NetApp and NVIDIA. NetApp HCI simplifies the deployment of AI inferencing solutions at edge data centers by addressing areas of ambiguity, eliminating complexities in the design and ending guesswork.
 ---
 
 = Use Cases

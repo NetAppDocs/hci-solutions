@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_deploy_netapp_trident_automated_deployment.html
 keywords:
-summary:
+summary: NetApp Trident is deployed by using an Ansible playbook that is available with NVIDIA DeepOps. Follow the steps on this page to set up NetApp Trident.
 ---
 
 = Deploy NetApp Trident (Automated Deployment)

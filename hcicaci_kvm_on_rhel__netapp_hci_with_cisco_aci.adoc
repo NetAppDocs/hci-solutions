@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hcicaci_kvm_on_rhel__netapp_hci_with_cisco_aci.html
 keywords: KVM, Kernel-based, Virtual Machine, linux, workflow
-summary: TR-4857
+summary: KVM (for Kernel-based Virtual Machine) is an open-source full virtualization solution for Linux on x86 hardware such as Intel VT or AMD-V. In other words, KVM lets you turn a Linux machine into a hypervisor that allows the host to run multiple, isolated VMs.
 ---
 
 = KVM on RHEL: NetApp HCI with Cisco ACI

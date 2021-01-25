@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_deploy_nvidia_triton_inference_server_automated_deployment.html
 keywords:
-summary:
+summary: To set up automated deployment for the Triton Inference Server, complete the steps listed on this page.
 ---
 
 = Deploy NVIDIA Triton Inference Server (Automated Deployment)

@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_deploy_and_onfigure_ontap_select_in_the_vmware_virtual_infrastructure_automated_deployment.html
 keywords:
-summary:
+summary: This page lists the steps necessary To deploy and configure an ONTAP Select instance within the VMware Virtual Infrastructure.
 ---
 
 = Deploy and Configure ONTAP Select in the VMware Virtual Infrastructure (Automated Deployment)

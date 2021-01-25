@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: redhat_openshift_architectural_overview__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: hardware, software, HCI, Mellanox, Cisco, Nexus, Trident, RHV
-summary:
+summary: This architectural overview contains the hardware and software requirements for NetApp HCI for Red Hat OpenShift on RHV.
 ---
 
-= Architectural Overview: NetApp HCI for Red Hat OpenShift on RHV
+= Architectural Overview
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -22,7 +22,7 @@ summary:
 
 == Hardware Requirements
 
-The following table lists the minimum number of hardware components that are required to implement the solution.  The hardware components that are used in specific implementations of the solution might vary based on customer requirements.
+The following table lists the minimum number of hardware components that are required to implement the solution. The hardware components that are used in specific implementations of the solution might vary based on customer requirements.
 
 |===
 |Hardware |Model |Quantity

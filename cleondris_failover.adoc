@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: cleondris_failover.html
 keywords: testing, failover, plan, VM
-summary:
+summary: A test failover is important, because it proves to you, your application owner, your manager, and the BCDR people that your disaster recovery plan works. To test failover, complete the steps listed on this page.
 ---
 
 = Failover: NetApp HCI DR with Cleondris

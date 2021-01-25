@@ -58,7 +58,7 @@ With NetApp HCI Private Cloud Sales and Partner Kits you have access to informat
 * Lower TCO realized with unmatched resource utilization and data efficiency.
 * Leverage existing investments by integrate with existing storage investments and the NetApp Data Fabric for enhanced data portability, visibility, and protection.
 * Performance at scale  Performance guarantee with multiple applications across multiple tenants in the same infrastructure.
-* NetApp Data Fabric -  your data, anywhere and everywhere you need it for hybrid cloud application mobility
+* NetApp Data Fabric - your data, anywhere and everywhere you need it for hybrid cloud application mobility
 
 == Find more information:
 * https://www.netapp.com/us/documentation/hci.aspx[NetApp HCI Documentation Resources]

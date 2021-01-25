@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: cleondris_disaster_recovery_overview.html
 keywords: DR	Disaster, TR-4380, 4830, tr4830, continuity, application catalog
-summary:
+summary: The business continuity and disaster recovery (BCDR) model is about getting people back to work. Disaster recovery focuses on bringing technology, such as an email server, back to life. Business continuity makes it possible for people to access that email server. Disaster recovery alone would mean that the technology is working, but nobody might be using it; BCDR means that people have started using the recovered technology.
 ---
 
 = TR-4830: NetApp HCI Disaster Recovery with Cleondris

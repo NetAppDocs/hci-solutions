@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_design_considerations.html
 keywords:
-summary:
+summary: The switches used to handle the NetApp HCI traffic require a specific configuration for successful deployment. Consult the NetApp HCI Network Setup Guide for the physical cabling and switch details. This solution uses a two-cable design for compute nodes. Optionally, compute nodes can be configured in a six-node cable design affording options for deployment of compute nodes.
 ---
 
 = Design Considerations

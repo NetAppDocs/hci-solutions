@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hcicaci_ontap_on_aff__netapp_hci_and_cisco_aci.html
 keywords: NetApp AFF, All-Flash FAS, ONTAP, protocols, FC, FCoE, NVMe/FC
-summary: TR-4875
+summary: This page describes how to set up a NetApp AFF storage platform powered by ONTAP. To extend the capabilities of storage to file services and add many more data protection abilities, ONTAP can be used in conjunction with NetApp HCI. If NetApp ONTAP already exists in your environment, you can easily integrate it with NetApp HCI and Cisco ACI.
 ---
 
 = ONTAP on AFF: NetApp HCI and Cisco ACI

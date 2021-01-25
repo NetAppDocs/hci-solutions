@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_openshift_deployment_summary.html
 keywords: configuration, deploy, DNS, SSH, Operator, Trident
-summary:
+summary: The detailed steps provided in this section provide a validation for the minimum hardware and software configuration required to deploy and validate the NetApp HCI for Red Hat OpenShift on RHV solution.
 ---
 
 = Deployment Summary: NetApp HCI for Red Hat OpenShift on RHV

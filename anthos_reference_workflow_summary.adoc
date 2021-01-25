@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: anthos_reference_workflow_summary.html
-summary: Reference NVA-1143 5.1 Workflow Summary
+summary: This is an overview of the detailed protocols required to implement the NetApp HCI solution for Anthos.
 keywords: NDE, Trident, vCenter, switches
 ---
 
@@ -13,7 +13,6 @@ keywords: NDE, Trident, vCenter, switches
 :linkattrs:
 :imagesdir: ./media/
 
-[.lead]
 This section provides detailed protocols for implementing the NetApp HCI solution for Anthos.
 
 This deployment is divided into the following high-level tasks:

@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: anthos_task_deploy_the_anthos_admin_workstation.html
-summary: Task NVA-1143 5.8 Deploy the Anthos Admin Workstation
+summary: The admin workstation is a vSphere VM deployed within your NetApp HCI environment that is preinstalled with all the tools necessary to administer the Anthos on VMware solution. Follow the instructions in this section to download, deploy, and configure the Anthos admin workstation.
 keywords: virtual appliance, vCenter, vDS, Terraform, DHCP
 ---
 
@@ -13,7 +13,6 @@ keywords: virtual appliance, vCenter, vDS, Terraform, DHCP
 :linkattrs:
 :imagesdir: ./media/
 
-[.lead]
 The admin workstation is a vSphere VM deployed within your NetApp HCI environment that is preinstalled with all the tools necessary to administer the Anthos on VMware solution. Follow the instructions in this section to download, deploy, and configure the Anthos admin workstation.
 
 NOTE:	The admin workstation image is packaged as an OVA file and is only available for download to those users with whitelisted access service accounts. If you are unable to download the OVA from cloud storage, contact your project administrator or open a support ticket with Google Cloud support.
