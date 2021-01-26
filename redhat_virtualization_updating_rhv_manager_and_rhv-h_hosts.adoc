@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_updating_rhv_manager_and_rhv-h_hosts.html
 keywords: security updates, stability updates, Red Hat Content Delivery Network, Red Hat Satellite repository
-summary:
+summary: It is a recommended best practice to make sure that both the RHV Manager and the RHV-H hosts have the latest security and stability updates applied to make sure that the environment is protected and continues to run as expected. 
 ---
 
 = Updating RHV Manager and RHV-H Hosts: NetApp HCI with RHV

@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_virtual_infrastructure_with__automated_deployment.html
 keywords:
-summary:
+summary: This section covers NDE deployment prerequisites and NDE execution.
 ---
 
 = Deploy VMware Virtual Infrastructure on NetApp HCI with NDE (Automated Deployment)

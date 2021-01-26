@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Additional Information: NetApp HCI for Red Hat OpenShift on RHV
+= Additional Information
 :hardbreaks:
 :nofooter:
 :icons: font

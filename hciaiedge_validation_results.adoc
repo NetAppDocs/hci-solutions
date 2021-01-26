@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_validation_results.html
 keywords:
-summary:
+summary: This section describes how to run a sample inference request.
 ---
 
 = Validation Results

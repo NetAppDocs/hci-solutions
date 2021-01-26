@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: citrix_control_layer.html
 keywords: App Layering, delivery controller, database, director, license, provisioning services, studio, Workspace Environment Management
-summary: TR-4852
+summary: The Citrix Control Layer consists of App Layering, the Delivery Controller, a database, a director, licensing, provisioning services, Studio, and Workspace Environment Management.
 ---
 
 = Control Layer
@@ -18,9 +18,8 @@ summary: TR-4852
 // 2020-07-31 10:32:38.884629
 //
 
-[.lead]
 
-=== App Layering
+== App Layering
 
 Layering is a technology to separate the OS, applications, and user settings and data, each hosted on its own virtual disks or group of virtual disks. These components are then merged with the OS as if they were all on same machine image. Users can continue with their work without any additional training. Layers make it easy to assign, patch,  and update. A layer is simply a container for file system and registry entries unique to that layer.
 
@@ -44,7 +43,7 @@ When there are common or shared files on multiple layers, by default the high pr
 
 ELM also supports authentication and role- based access control with integration with Active Directory and LDAP.
 
-=== Delivery Controller
+== Delivery Controller
 
 The delivery controller is responsible for user access, brokering, and optimizing connections. It also provides Machine Creation Services (MCS) for provisioning virtual machines in an effective manner. At least one delivery controller is required per site, and typically additional controllers are added for redundancy and scalability.
 
@@ -52,23 +51,23 @@ Virtual desktop agents (VDA) must register with the delivery controller to make 
 
 Delivery controllers keep a local host cache in case a controller loses its connectivity to database server.
 
-=== Database
+== Database
 
 A SQL Server database is used for site configuration data, logging, and monitoring. There should be at least one database per site. To provide high availability, use Microsoft SQL Server features like AlwaysOn availability groups, database mirroring, or SQL clustering. At a minimum, consider using the hypervisor high- availability feature for a SQL VM.
 
 Even though the controller has a local host cache, it doesn’t affect any existing connections. However, for new connections, NetApp recommends database connectivity.
 
-=== Director
+== Director
 
 Citrix Director provides a monitoring solution for Citrix Virtual Apps and Desktops. Help Desk users can search for a specific user session and get a complete picture for troubleshooting. When Citrix Virtual Apps and Desktop Resources are hosted on Citrix Hypervisor, Help Desk users have the option to launch a console session from the Director portal.
 
 image:citrix_image36.png[Error: Missing Graphic Image]
 
-=== License
+== License
 
 The Citrix license server manages the repository of all Citrix licenses so that licenses can be easily consumed by applications. The license server provides a management portal for advanced troubleshooting. For regular operations, Citrix Studio can also be used.
 
-=== Provisioning Services
+== Provisioning Services
 
 Provisioning services enable the provisioning of desktop images even to bare metal workstations by using PXE boot. An ISO or CDROM-based boot option is also available to support environments in which network changes aren’t allowed for PXE boot. The DHCP server options that we used in our lab is provided in the following figure. CP.HCIEUC.Demo and PVS.HCIEUC.Demo are the load balancer virtual IPs that point to two provisioning servers. When option 011 and 017 are available, options 066 and 067 are ignored.
 
@@ -90,11 +89,11 @@ The high-level operation to create a machine catalog based on Citrix provisionin
 
 . Right click on the site to pick the Create Virtual Desktops Setup Wizard and respond to the questions.
 
-=== Studio
+== Studio
 
 Citrix Studio is the central management console used by the Citrix Virtual Apps and Desktops. The management of machine catalogs, delivery groups, applications, policies, and the configuration of resource hosting, licenses, zones, roles, and scopes are handled by the Citrix Studio. Citrix Studio also provides PowerShell snap-ins to manage Citrix Virtual Apps and Desktops.
 
-=== Workspace Environment Management
+== Workspace Environment Management
 
 Workspace Environment Management (WEM) provides intelligent resource management and profile management technologies to deliver the best possible performance, desktop login, and application response times for Citrix Virtual Apps and Desktops in a software-only, driver-free solution.
 

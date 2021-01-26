@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: redhat_openshift_4._register_api_apps_in_dns__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: IP, address, DNS, API, Apps
-summary:
+summary: This page describes the steps necessary to register API/Apps in DNS.
 ---
 
-= 4. Register API/Apps in DNS: NetApp HCI for Red Hat OpenShift on RHV
+= 4. Register API/Apps in DNS
 :hardbreaks:
 :nofooter:
 :icons: font

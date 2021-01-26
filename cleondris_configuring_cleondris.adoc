@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: cleondris_configuring_cleondris.html
 keywords: communicate, configure, license, vCenter, clusters, inventory, volume
-summary:
+summary: This page describe the configuration of Cleondris to communicate with your vCenter Servers and storage.
 ---
 
 = Configuring Cleondris: NetApp HCI DR with Cleondris
@@ -17,8 +17,6 @@ summary:
 //
 // 2020-07-10 10:54:35.693019
 //
-
-[.lead]
 
 You now configure Cleondris to communicate with your vCenter Servers and storage. If you have logged out, returned, and log in again to start here, you are prompted for the following information:
 

@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_setp_the_deployment_jump__and_the_kubernetes_master_node_vms_manual_deployment.html
 keywords:
-summary:
+summary: A Deployment Jump VM running a Linux distribution is used for the following purposes; deploying ONTAP Select using an Ansible playbook, deploying the Kubernetes infrastructure with NVIDIA DeepOps and GPU Operator, and installing and configuring NetApp Trident.
 ---
 
 = Set Up the Deployment Jump VM and the Kubernetes Master Node VMs (Manual Deployment)

@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: cleondris_best_practices.html
 keywords:
-summary:
+summary: The tips described on this page can help you be more successful with your BCDR work.
 ---
 
 = Best Practices: NetApp HCI DR with Cleondris

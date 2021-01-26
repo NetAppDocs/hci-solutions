@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_optimizing_memory_for_red_hat_virtualization.html
 keywords: memory overcommitment, thin provisioning, Memory Overcommit Manager, MoM, memory ballooning, Kernel Same-page Merging, KSM
-summary:
+summary: One of the primary benefits for deploying a virtual infrastructure is to enable the more efficient use of physical resources in the environment. In a case in which the guest VMs underutilize the memory allotted, you can use memory overcommitment to optimize memory usage. With this feature, the sum of the memory allocated to guest VMs on a host is allowed to exceed the amount of physical memory on that host.
 ---
 
 = Optimizing Memory for Red Hat Virtualization: NetApp HCI with RHV

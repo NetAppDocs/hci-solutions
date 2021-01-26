@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_deployment_summary__netapp_hci_with_rhv.html
 keywords: Summary, configuration, management switches, data switches, Element, Install, RHV-H, RHV Manager, VM, HA
-summary:
+summary: The detailed steps provided on this page provide a validation for the minimum hardware and software configuration required to deploy and validate the NetApp HCI with Red Hat Virtualization solution.
 ---
 
 = Deployment Summary: NetApp HCI with RHV

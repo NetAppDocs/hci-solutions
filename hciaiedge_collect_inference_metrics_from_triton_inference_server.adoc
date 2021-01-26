@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_collect_inference_metrics_from_triton_inference_server.html
 keywords:
-summary:
+summary: The Triton Inference Server provides Prometheus metrics indicating GPU and request statistics.
 ---
 
 = Collect Inference Metrics from Triton Inference Server
@@ -18,7 +18,6 @@ summary:
 // 2020-09-29 18:13:43.689401
 //
 
-[.lead]
 The Triton Inference Server provides Prometheus metrics indicating GPU and request statistics.
 
 By default, these metrics are available at http://<<triton_inference_server_IP>>:8002/metrics.

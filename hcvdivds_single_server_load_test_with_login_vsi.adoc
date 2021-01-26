@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
 permalink: hcvdivds_single_server_load_test_with_login_vsi.html
-keywords:
-summary:
+keywords: VDS, Microsoft Remote Desktop Protocol, Login VSI
+summary: The NetApp Virtual Desktop Service uses the Microsoft Remote Desktop Protocol to access virtual desktop sessions and applications, and the Login VSI tool determines the maximum number of users that can be hosted on a specific server model.
 ---
 
 = Single server load test with Login VSI

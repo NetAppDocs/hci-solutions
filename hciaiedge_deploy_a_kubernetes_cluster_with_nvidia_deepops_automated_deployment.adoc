@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_deploy_a_kubernetes_cluster_with_nvidia_deepops_automated_deployment.html
 keywords:
-summary:
+summary: This page lists the steps necessary to deploy a Kubernetes Cluster with NVIDIA DeepOps Automated Deployment.
 ---
 
 = Deploy a Kubernetes Cluster with NVIDIA DeepOps Automated Deployment

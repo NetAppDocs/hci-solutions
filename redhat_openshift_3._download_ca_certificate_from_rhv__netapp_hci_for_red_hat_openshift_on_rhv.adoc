@@ -2,11 +2,10 @@
 sidebar: sidebar
 permalink: redhat_openshift_3._download_ca_certificate_from_rhv__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: CA, Certificate, Authority, RHV, RHV-M
-
-summary:
+summary: In order to access the RHV manager from the RHEL machine during the deployment process, the CA certificate trust must be updated on the machine to trust connections to RHV-M. To download the RHV Manager's CA certificate, complete the steps on this page.
 ---
 
-= 3. Download CA Certificate from RHV: NetApp HCI for Red Hat OpenShift on RHV
+= 3. Download CA Certificate from RHV
 :hardbreaks:
 :nofooter:
 :icons: font

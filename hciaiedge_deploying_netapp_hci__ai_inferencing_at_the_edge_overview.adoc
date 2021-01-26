@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_deploying_netapp_hci__ai_inferencing_at_the_edge_overview.html
 keywords:
-summary:
+summary: This section describes the steps required to deploy the AI inferencing platform using NetApp HCI. 
 ---
 
 = Overview

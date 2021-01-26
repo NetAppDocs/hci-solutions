@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: redhat_openshift_9._download_and_install_netapp_trident__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: Installation, Trident, OCP Cluster, storage backend
-summary:
+summary: This page describes the steps necessary to download and install NetApp Trident.
 ---
 
-= 9. Download and Install NetApp Trident: NetApp HCI for Red Hat OpenShift on RHV
+= 9. Download and Install NetApp Trident
 :hardbreaks:
 :nofooter:
 :icons: font

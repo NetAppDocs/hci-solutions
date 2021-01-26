@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: redhat_openshift_8._configure_worker_nodes_to_run_storage_services__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: Element, iSCSI, worker nodes, storage services
-summary:
+summary: This page describes the steps necessary to configure the worker nodes to run storage services.
 ---
 
-= 8. Configure Worker Nodes to Run Storage Services: NetApp HCI for Red Hat OpenShift on RHV
+= 8. Configure Worker Nodes to Run Storage Services
 :hardbreaks:
 :nofooter:
 :icons: font

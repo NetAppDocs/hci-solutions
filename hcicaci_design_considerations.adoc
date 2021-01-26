@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hcicaci_design_considerations.html
 keywords:
-summary:
+summary: This page provides an overview of network, compute, and storage design.
 ---
 
 = Design Considerations

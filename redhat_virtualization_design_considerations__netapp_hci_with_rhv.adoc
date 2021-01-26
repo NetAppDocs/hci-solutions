@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_design_considerations__netapp_hci_with_rhv.html
 keywords: Networking, Port, network design, cabling, storage nodes, VLAN, In-band, out-of-band
-summary:
+summary: This page describes the networking requirements for the deployment of Red Hat Virtualization on NetApp HCI as a validated solution. It provides physical diagrams of the network ports on both the NetApp HCI compute nodes and the switches deployed in the solution. This section also describes the arrangement and purpose of each virtual network segment used in the solution.
 ---
 
 = Design Considerations: NetApp HCI with RHV

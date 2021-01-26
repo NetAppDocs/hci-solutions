@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_virtualization_architecture_overview__netapp_hci_with_rhv.html
 keywords: hardware, software, Compute, Storage, Switches, Element, RHV, virtualization
-summary:
+summary: The tables on this page list the minimum number of hardware and software components that are required to implement the solution. 
 ---
 
 = Architecture Overview: NetApp HCI with RHV

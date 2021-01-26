@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_netapp_h615cmanual_deployment.html
 keywords:
-summary:
+summary: In this solution, the NetApp H615c compute nodes are configured as Kubernetes worker nodes. The Inferencing workload is hosted on these nodes. Deploying the compute nodes involves the following tasks; install Ubuntu 18.04.4 LTS, configure networking for data and management access, and prepare the Ubuntu instances for Kubernetes deployment.
 ---
 
 = Configure NetApp H615c (Manual Deployment)

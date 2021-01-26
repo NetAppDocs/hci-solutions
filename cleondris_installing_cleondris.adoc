@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: cleondris_installing_cleondris.html
 keywords: installation, dr, dns, fqdn, ntp, RTOs, license, deployment
-summary:
+summary: The installation of Cleondris requires the completion of prerequisites, download information, licensing, deployment, initial configuration, and patching.
 ---
 
 = Installing Cleondris: NetApp HCI DR with Cleondris

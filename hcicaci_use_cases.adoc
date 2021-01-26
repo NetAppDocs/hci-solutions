@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hcicaci_use_cases.html
 keywords: software defined, HCI, ACI, use case, private cloud, VMware, Red Hat
-summary:
+summary: The NetApp HCI with Cisco ACI solution delivers exceptional value for customers with the following use cases; on-premises software-defined compute, storage, and networking infrastructure, large enterprise and service-provider environments, private cloud (VMware and Red Hat), end user computing and Virtual Desktop Infrastructure, and mixed-workload and mixed-storage environments.
 ---
 
 = Use Cases
@@ -24,7 +24,7 @@ The NetApp HCI with Cisco ACI solution delivers exceptional value for customers 
 * On-premises software-defined compute, storage, and networking infrastructure
 * Large enterprise and service-provider environments
 * Private cloud (VMware and Red Hat)
-* End User Computing and Virtual Desktop Infrastructure
+* End user computing and Virtual Desktop Infrastructure
 * Mixed-workload and mixed-storage environments
 
 link:hcicaci_architecture.html[Next: Architecture]

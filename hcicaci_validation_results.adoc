@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hcicaci_validation_results.html
 keywords: Validation, iPerf, IOmeter, VMware, RHV, KVM
-summary: TR-4857
+summary: We used the iPerf tool for testing network throughput, and the baseline expectation was that the test systems should achieve throughput within 10% of the maximum line rate. For storage IOPS subsystem measurement, we used the IOmeter tool. The baseline expectation was that the test systems should achieve read/write throughput within 10% of the maximum.
 ---
 
 = Validation Results

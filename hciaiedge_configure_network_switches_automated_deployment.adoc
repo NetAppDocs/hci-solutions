@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_configure_network_switches_automated_deployment.html
 keywords:
-summary:
+summary: This page describes the steps necessary to configure network switches for automated deployment, including preparing VLAN IDs, switch configuration, IP Address Requirements, and DNS and Timekeeping Requirements.
 ---
 
 = Configure Network Switches (Automated Deployment)

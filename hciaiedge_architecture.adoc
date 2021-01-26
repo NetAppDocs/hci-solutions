@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: hciaiedge_architecture.html
 keywords:
-summary:
+summary: This solution is designed with a NetApp HCI system that contains the following components, two H615c compute nodes with NVIDIA T4 GPUs, two H410c compute nodes, two H410s storage nodes, and two Mellanox SN2010 10GbE/25GbE switches. Software requirements are also discussed.
 ---
 
 = Architecture

@@ -2,11 +2,10 @@
 sidebar: sidebar
 permalink: redhat_openshift_7._access_console_web_console__netapp_hci_for_red_hat_openshift_on_rhv.html
 keywords: OCP Cluster, console, web
-
-summary:
+summary: This page describes the steps necessary to access the console or web console.
 ---
 
-= 7. Access Console/Web Console: NetApp HCI for Red Hat OpenShift on RHV
+= 7. Access Console/Web Console
 :hardbreaks:
 :nofooter:
 :icons: font

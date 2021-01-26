@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: redhat_openshift_videos_and_demos__netapp_hci_for_red_hat_openshift_on_red_hat_virtualization.html
 keywords: video, demonstration
-summary:
+summary: Video support for this solution.
 ---
 
 = Videos and Demos: NetApp HCI for Red Hat OpenShift on RHV
