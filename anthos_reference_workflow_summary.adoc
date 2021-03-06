@@ -5,7 +5,7 @@ summary: Reference NVA-1143 5.1 Workflow Summary
 keywords: NDE, Trident, vCenter, switches
 ---
 
-= Workflow Summary: NetApp HCI with Anthos
+= Deployment Steps
 
 :hardbreaks:
 :nofooter:

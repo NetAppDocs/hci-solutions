@@ -5,7 +5,7 @@ summary: Task NVA-1143 5.7 Complete Anthos Prerequisites
 keywords: Google Cloud, SDK, govc, Hashicorp, Terraform
 ---
 
-= 6. Complete Anthos Prerequisites
+= Complete Anthos Prerequisites
 
 :hardbreaks:
 :nofooter:

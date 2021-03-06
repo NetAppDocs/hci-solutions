@@ -5,7 +5,7 @@ keywords: DR	Disaster, TR-4380, 4830, tr4830, continuity, application catalog
 summary:
 ---
 
-= Disaster Recovery Overview: NetApp HCI DR with Cleondris
+= TR-4830: NetApp HCI Disaster Recovery with Cleondris
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -18,7 +18,7 @@ summary:
 // 2020-07-10 10:54:35.544495
 //
 
-[.lead]
+Michael White, NetApp
 
 == Overview of Business Continuity and Disaster Recovery
 

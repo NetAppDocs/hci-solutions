@@ -1,0 +1,35 @@
+---
+sidebar: sidebar
+permalink: hciaiedge_deploying_netapp_hci__ai_inferencing_at_the_edge_overview.html
+keywords:
+summary:
+---
+
+= Overview
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+//
+// This file was created with NDAC Version 2.0 (August 17, 2020)
+//
+// 2020-09-29 18:13:42.485172
+//
+
+[.lead]
+This section describes the steps required to deploy the AI inferencing platform using NetApp HCI. The following list provides the high-level tasks involved in the setup:
+
+.	link:hciaiedge_configure_network_switches_automated_deployment.html[Configure network switches]
+.	link:hciaiedge_virtual_infrastructure_with__automated_deployment.html[Deploy the VMware virtual infrastructure on NetApp HCI using NDE]
+.	link:hciaiedge_netapp_h615cmanual_deployment.html[Configure the H615c compute nodes to be used as K8 worker nodes]
+.	link:hciaiedge_setp_the_deployment_jump__and_the_kubernetes_master_node_vms_manual_deployment.html[Set up the deployment jump VM and K8 master VMs]
+.	link:hciaiedge_deploy_a_kubernetes_cluster_with_nvidia_deepops_automated_deployment.html[Deploy a Kubernetes cluster with NVIDIA DeepOps]
+.	link:hciaiedge_deploy_and_onfigure_ontap_select_in_the_vmware_virtual_infrastructure_automated_deployment.html[Deploy ONTAP Select within the virtual infrastructure]
+.	link:hciaiedge_deploy_netapp_trident_automated_deployment.html[Deploy NetApp Trident]
+.	link:hciaiedge_deploy_nvidia_triton_inference_server_automated_deployment.html[Deploy NVIDIA Triton inference Server]
+.	link:hciaiedge_deploy_the_client_for_triton_inference_server_automated_deployment.html[Deploy the client for the Triton inference server]
+.	link:hciaiedge_collect_inference_metrics_from_triton_inference_server.html[Collect inference metrics from the Triton inference server]
+
+link:hciaiedge_configure_network_switches_automated_deployment.html[Next: Configure Network Switches]

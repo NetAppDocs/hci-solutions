@@ -114,6 +114,7 @@ The following tables list the hardware and software compute resources utilized i
 |Hardware |Model |Quantity
 
 |NetApp HCI compute nodes
+
 |NetApp H410C
 |6
 |===
@@ -146,6 +147,7 @@ The following tables list the hardware and software storage resources used in th
 |Hardware |Model |Quantity
 
 |NetApp HCI storage nodes
+
 |NetApp H410S
 |4
 |AFF
