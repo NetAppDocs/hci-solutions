@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: bmanthos_where_to_find_additional_information.html
+permalink: containers/bmanthos_where_to_find_additional_information.html
 keywords:
 summary:
 ---
