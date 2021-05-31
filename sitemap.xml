@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions//anthos_abstract.html</loc>
+      
+      <lastmod>2020-07-29T15:21:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_concept_overview.html</loc>
+      
+      <lastmod>2020-10-14T20:39:20+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_concept_solution_components.html</loc>
+      
+      <lastmod>2020-09-04T19:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_reference_addition_information.html</loc>
+      
+      <lastmod>2020-06-04T18:57:55+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_reference_design_considerations.html</loc>
+      
+      <lastmod>2020-09-04T19:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_reference_hardware_software_requirements.html</loc>
+      
+      <lastmod>2020-09-04T19:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_reference_video_demos.html</loc>
+      
+      <lastmod>2020-06-04T18:57:55+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_reference_workflow_summary.html</loc>
+      
+      <lastmod>2020-10-14T20:39:20+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_complete_anthos_prerequisites.html</loc>
+      
+      <lastmod>2020-10-14T20:39:20+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_configure_data_switches.html</loc>
+      
+      <lastmod>2020-09-04T19:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_configure_management_switches.html</loc>
+      
+      <lastmod>2020-09-04T19:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_configure_the_vcenter_server.html</loc>
+      
+      <lastmod>2020-09-04T19:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_deploy_additional_user_clusters.html</loc>
+      
+      <lastmod>2020-06-04T18:57:55+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_deploy_netapp_hci.html</loc>
+      
+      <lastmod>2020-09-04T19:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_deploy_the_admin.html</loc>
+      
+      <lastmod>2020-09-04T19:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_deploy_the_anthos_admin_workstation.html</loc>
+      
+      <lastmod>2020-09-04T19:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_deploy_the_f5_big-ip.html</loc>
+      
+      <lastmod>2020-09-04T19:59:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_enable_access_to_the_cluster.html</loc>
+      
+      <lastmod>2020-06-04T18:57:55+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/anthos_task_install_and_configure_trident.html</loc>
+      
+      <lastmod>2020-06-04T18:57:55+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions//citrix_abstract.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_access_layer.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_appendix__iscsi_device_configuration.html</loc>
+      
+      <lastmod>2020-07-31T19:26:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_citrix_hypervisor.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_control_layer.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_executive_summary.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_netapp_value.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_physical_infrastructure.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_resource_layer.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_solution_overview.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_user_layer.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/citrix_where_to_find_additional_information.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/cleondris_abstract.html</loc>
+      
+      <lastmod>2020-07-29T15:21:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/cleondris_additional_information.html</loc>
+      
+      <lastmod>2020-07-29T15:21:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/cleondris_best_practices.html</loc>
+      
+      <lastmod>2020-07-29T15:21:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/cleondris_configuring_cleondris.html</loc>
+      
+      <lastmod>2020-07-29T15:21:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/cleondris_disaster_recovery_overview.html</loc>
+      
+      <lastmod>2020-09-17T20:49:22+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/cleondris_disaster_recovery_pairing.html</loc>
+      
+      <lastmod>2020-07-29T15:21:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/cleondris_failover.html</loc>
+      
+      <lastmod>2020-07-29T15:21:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/cleondris_installing_cleondris.html</loc>
+      
+      <lastmod>2020-07-29T15:21:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/cleondris_recovery_planning.html</loc>
+      
+      <lastmod>2020-07-29T15:21:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_additional_information.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_architecture.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_collect_inference_metrics_from_triton_inference_server.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_configure_network_switches_automated_deployment.html</loc>
+      
+      <lastmod>2020-12-02T14:53:42+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_deploy_a_kubernetes_cluster_with_nvidia_deepops_automated_deployment.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_deploy_and_onfigure_ontap_select_in_the_vmware_virtual_infrastructure_automated_deployment.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_deploy_netapp_trident_automated_deployment.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_deploy_nvidia_triton_inference_server_automated_deployment.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_deploy_the_client_for_triton_inference_server_automated_deployment.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_deploying_netapp_hci__ai_inferencing_at_the_edge.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_deploying_netapp_hci__ai_inferencing_at_the_edge_overview.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_design_considerations.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_netapp_h615cmanual_deployment.html</loc>
+      
+      <lastmod>2020-10-01T16:54:43+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_nva-1144_netapp_hci_ai_inferencing_at_the_edge_data_center_with_h615c_and_t4.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_setp_the_deployment_jump__and_the_kubernetes_master_node_vms_manual_deployment.html</loc>
+      
+      <lastmod>2020-10-01T16:54:43+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_use_cases.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_validation_results.html</loc>
+      
+      <lastmod>2020-10-01T16:02:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hciaiedge_virtual_infrastructure_with__automated_deployment.html</loc>
+      
+      <lastmod>2020-10-01T16:54:43+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_RHV__netapp_hci_with_cisco_aci.html</loc>
+      
+      <lastmod>2020-09-02T18:25:46+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_abstract.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_additional_information.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_additional_information_overview.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_architecture.html</loc>
+      
+      <lastmod>2020-09-11T16:24:20+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_deploying_netapp_hci_with_cisco_aci.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_design_considerations.html</loc>
+      
+      <lastmod>2020-09-14T14:55:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_interoperability_matrixes.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_kvm_on_rhel__netapp_hci_with_cisco_aci.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_netapp_hci_with_cisco_aci.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_ontap_on_aff__netapp_hci_and_cisco_aci.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_ontap_select_with_vmware_vsphere__netapp_hci_and_cisco_aci.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_storagegrid_with_vmware_vsphere__netapp_hci_and_cisco_aci.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_use_cases.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_validation_results.html</loc>
+      
+      <lastmod>2020-09-01T18:54:26+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcicaci_vmware_vsphere__netapp_hci_with_cisco_aci.html</loc>
+      
+      <lastmod>2020-09-15T18:32:51+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_application_management.html</loc>
+      
+      <lastmod>2020-09-24T20:22:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_conclusion.html</loc>
+      
+      <lastmod>2020-09-24T20:22:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_data_management.html</loc>
+      
+      <lastmod>2020-10-20T20:11:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_deployment.html</loc>
+      
+      <lastmod>2020-09-24T20:22:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_hybrid_cloud_environment.html</loc>
+      
+      <lastmod>2020-10-20T20:11:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_hybrid_cloud_vdi_with_virtual_desktop_service.html</loc>
+      
+      <lastmod>2020-10-26T13:51:49+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_management_portal.html</loc>
+      
+      <lastmod>2020-09-24T20:22:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_netapp_hci_overview.html</loc>
+      
+      <lastmod>2020-10-20T20:11:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_netapp_virtual_desktop_service_overview.html</loc>
+      
+      <lastmod>2020-09-24T20:22:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_nvidia_licensing.html</loc>
+      
+      <lastmod>2020-10-20T20:11:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_operation_management.html</loc>
+      
+      <lastmod>2020-10-20T20:11:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_single_server_load_test_with_login_vsi.html</loc>
+      
+      <lastmod>2020-10-20T20:11:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_tools_and_logs.html</loc>
+      
+      <lastmod>2020-09-24T20:22:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_use_cases.html</loc>
+      
+      <lastmod>2020-09-24T20:22:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_user_management.html</loc>
+      
+      <lastmod>2020-10-20T20:11:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_where_to_find_additional_information.html</loc>
+      
+      <lastmod>2020-09-24T20:22:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/hcvdivds_workspace_management.html</loc>
+      
+      <lastmod>2020-09-24T20:22:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/</loc>
+      
+      <lastmod>2020-06-08T20:57:31+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/</loc>
+      
+      <lastmod>2020-09-10T17:42:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/nhci_euc_vmware.html</loc>
+      
+      <lastmod>2020-08-19T20:27:25+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/nhci_intro.html</loc>
+      
+      <lastmod>2020-05-22T21:40:46+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_1._create_storage_network_vlan__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_2._download_openshift_installation_files__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_3._download_ca_certificate_from_rhv__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_4._register_api_apps_in_dns__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_5._generate_and_add_ssh_private_key__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_6._install_openshift_container_platform__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_7._access_console_web_console__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_8._configure_worker_nodes_to_run_storage_services__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_9._download_and_install_netapp_trident__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_abstract.html</loc>
+      
+      <lastmod>2020-06-26T21:07:51+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_additional_information__netapp_hci_for_red_hat_openshift_on_red_hat_virtualization.html</loc>
+      
+      <lastmod>2020-06-26T21:07:51+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_architectural_overview__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-10-20T20:11:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_best_practices_for_production_deployments.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_deployment_summary.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_design_considerations__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_solution_overview__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-09-17T19:15:43+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_validation_results__netapp_hci_for_red_hat_openshift_on_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_videos_and_demos__netapp_hci_for_red_hat_openshift_on_red_hat_virtualization.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_1._configure_management_switches__netapp_hci_with_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_2._configure_data_switches__netapp_hci_with_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_3._deploy_the_element_storage_system_on_the_hci_storage_nodes__netapp_hci_with_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_4._deploy_the_rhv-h_hypervisor_on_the_hci_compute_nodes__netapp_hci_with_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_5._deploy_the_rhv_manager_as_a_self-hosted_engine.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_6._configure_rhv-m_infrastructure.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_7._deploy_the_netapp_mnode.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_abstract.html</loc>
+      
+      <lastmod>2020-06-26T21:07:51+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_architecture_overview__netapp_hci_with_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_deployment_summary__netapp_hci_with_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_design_considerations__netapp_hci_with_rhv.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_enabling_fencing_for_rhv-h_hosts.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_optimizing_memory_for_red_hat_virtualization.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_solution_overview__netapp_hci_with_rhv.html</loc>
+      
+      <lastmod>2020-09-17T19:15:43+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_updating_rhv_manager_and_rhv-h_hosts.html</loc>
+      
+      <lastmod>2020-07-08T19:09:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/redhat_virtualization_where_to_find_additional_information__netapp_hci_with_rhv.html</loc>
+      
+      <lastmod>2020-07-29T15:21:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions/sales-partner-kits.html</loc>
+      
+      <lastmod>2020-07-29T14:34:57+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/hci-solutions//search.html</loc>
+      
+      <lastmod>2021-05-31T02:28:08+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>
