@@ -1,3 +1,10 @@
+---
+settings:
+  name: NetApp HCI Solutions
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
 sidebar:
   entries:
     - title: NetApp HCI Sales & Partner Kits
