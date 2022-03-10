@@ -18,8 +18,6 @@ summary:
 // 2020-07-10 10:54:35.825788
 //
 
-[.lead]
-
 == Test Failover
 A test failover is important, because it proves to you, your application owner, your manager, and the BCDR people that your disaster recovery plan works.
 
