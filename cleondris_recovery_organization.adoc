@@ -5,7 +5,7 @@ keywords:
 summary:
 ---
 
-= Configuring Cleondris: NetApp HCI DR with Cleondris
+= Recovery organization
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -18,11 +18,9 @@ summary:
 // 2020-07-10 10:54:35.693019
 //
 
-= Recovery organization
-
 == Disaster Recovery Orchestration
 
-This section discusses successful failover of applications in a crisis or in a planned migration. It first looks at protecting complex multitier applications, and then simpler applications. You can build disaster recovery plans that are slow or fast, so this section provides examples of the highest-performing plans.  
+This section discusses successful failover of applications in a crisis or in a planned migration. It first looks at protecting complex multitier applications, and then simpler applications. You can build disaster recovery plans that are slow or fast, so this section provides examples of the highest-performing plans.
 
 == Multitier Applications
 
