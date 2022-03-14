@@ -18,8 +18,6 @@ summary:
 // 2020-07-10 10:54:35.889140
 //
 
-[.lead]
-
 == Recommendations for Success
 
 The following tips can help you be more successful with your BCDR work.
