@@ -20,7 +20,7 @@ summary:
 
 [.lead]
 
-=== Basic NetApp Element Storage Setup
+== Basic NetApp Element Storage Setup
 
 NetApp Element cluster setup is performed in a manner similar to a standalone NetApp SolidFire storage setup. These steps begin after the nodes have been racked, and cabled, and the IPMI port has been configured on each node using the console. To setup a storage cluster, complete the following steps:
 
@@ -71,7 +71,7 @@ image:redhat_virtualization_image10.png[Error: Missing Graphic Image]
 
 image:redhat_virtualization_image11.png[Error: Missing Graphic Image]
 
-=== Element Storage Configuration to Support RHV Deployment
+== Element Storage Configuration to Support RHV Deployment
 
 In our NetApp HCI for Red Hat Virtualization solution, we use a NetApp Element storage system to provide the backend storage support for RHV’s requirement of shared storage domains. The self-hosted engine architecture of RHV deployment requires two storage domains at a minimum―one for the hosted engine storage domain and one for the guest VM data domain.
 

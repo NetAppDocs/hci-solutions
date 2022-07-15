@@ -20,7 +20,7 @@ summary: TR-4852 abstract
 
 [.lead]
 
-=== StoreFront
+== StoreFront
 
 StoreFront consolidates resources published from multiple delivery controllers and presents unique items to users. Users connect to StoreFront and hides the infrastructure changes on the backend.
 
@@ -30,7 +30,7 @@ Users connect to StoreFront with the Citrix Workspace application or with a web 
 
 image:citrix_image41.png[Error: Missing Graphic Image]
 
-=== Unified Gateway
+== Unified Gateway
 
 To provide secure access to Citrix Virtual Apps and Desktops from the public internet to resources hosted behind a corporate firewall, Unified Gateway is deployed in a DMZ network. Unified Gateway provides access to multiple services like an SSL VPN, a reverse proxy to intranet resources, load balancer and so on by using a single IP address or URL.
 

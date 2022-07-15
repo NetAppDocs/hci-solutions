@@ -20,7 +20,7 @@ summary:
 
 [.lead]
 
-=== Hardware Requirements
+== Hardware Requirements
 
 The following table lists the minimum number of hardware components that are required to implement the solution. The hardware components that are used in specific implementations of the solution might vary based on customer requirements.
 
@@ -41,7 +41,7 @@ The following table lists the minimum number of hardware components that are req
 |2
 |===
 
-=== Software Requirements
+== Software Requirements
 
 The following table lists the software components that are required to implement the solution. The software components that are used in any implementation of the solution might vary based on customer requirements.
 

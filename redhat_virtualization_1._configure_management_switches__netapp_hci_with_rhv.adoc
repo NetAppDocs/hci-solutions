@@ -22,7 +22,7 @@ summary:
 
 Cisco Nexus 3048 switches are used in this deployment procedure to provide 1Gbps connectivity for in and out-of-band management of the compute and storage nodes. These steps begin after the switches have been racked, powered, and put through the initial setup process. To configure the switches to provide management connectivity to the infrastructure, complete the following steps:
 
-=== Enable Advanced Features for Cisco Nexus
+== Enable Advanced Features for Cisco Nexus
 
 Run the following commands on each Cisco Nexus 3048 switch to configure advanced features:
 
@@ -68,7 +68,7 @@ Switch-01(config)# spanning-tree port type network default
 Switch-01(config)# spanning-tree port type edge bpduguard default
 ....
 
-=== Configure Ports on the Switch for In-Band Management
+== Configure Ports on the Switch for In-Band Management
 
 . Run the following commands to create VLANs for management purposes:
 +
@@ -113,7 +113,7 @@ Switch-01(config-if)# spanning tree port type edge trunk
 Switch-01(config-if)# exit
 ....
 
-=== Configure Ports on the Switch for Out-of-Band Management
+== Configure Ports on the Switch for Out-of-Band Management
 
 Run the following commands to configure the ports for cabling the IPMI interfaces on each HCI node.
 
@@ -139,7 +139,7 @@ Switch-01(config-if)# exit
 [NOTE]
 In the validated configuration, we cabled odd-node IPMI interfaces to Switch-01 and even-node IPMI interfaces to Switch-02.
 
-=== Create a vPC Domain to Ensure Fault Tolerance
+== Create a vPC Domain to Ensure Fault Tolerance
 
 . Activate the ports used for the vPC peer-link between the two switches.
 +

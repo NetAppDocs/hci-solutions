@@ -23,7 +23,7 @@ summary:
 
 This section provides the steps to deploy a continuous integration/continuous delivery or deployment (CI/CD) pipeline with Jenkins in order to validate the operation of the solution.
 
-=== Create the Resources Required for Jenkins Deployment
+== Create the Resources Required for Jenkins Deployment
 
 To create the resources required for deploying the Jenkins application, complete the following steps:
 
@@ -36,7 +36,7 @@ image:redhat_openshift_image15.jpeg[Error: Missing Graphic Image]
 
 image:redhat_openshift_image16.png[Error: Missing Graphic Image]
 
-=== Deploy Jenkins with Persistent Storage
+== Deploy Jenkins with Persistent Storage
 
 To deploy Jenkins with persistent storage, complete the following steps:
 
@@ -80,7 +80,7 @@ image:redhat_openshift_image23.jpeg[Error: Missing Graphic Image]
 
 image:redhat_openshift_image24.png[Error: Missing Graphic Image]
 
-. You can now create a pipeline to demonstrate the CI/CD workflow. On the home page, click Create New Jobs or New Item from the left- hand menu.
+. You can now create a pipeline to demonstrate the CI/CD workflow. On the home page, click Create New Jobs or New Item from the left-hand menu.
 +
 
 image:redhat_openshift_image25.jpeg[Error: Missing Graphic Image]
