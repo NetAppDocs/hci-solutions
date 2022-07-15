@@ -32,7 +32,7 @@ image:citrix_image15.png[Error: Missing Graphic Image]
 
 Resources from NetApp HCI makes up the hardware layer, which includes compute, storage, network, GPUs, and so on.
 
-=== Compute
+== Compute
 
 The CPU and memory details of NetApp HCI are covered in the previous section. However, this section focuses on how the compute node is utilized in the Citrix Hypervisor environment.
 
@@ -46,7 +46,7 @@ image:citrix_image16.png[Error: Missing Graphic Image]
 
 Each tenant resource can be hosted on dedicated resource pools or can be differentiated with tags on the same resource pool. Custom values can be defined for operational and reporting purpose.
 
-=== Storage
+== Storage
 
 NetApp HCI compute nodes have local storage that is not recommended for the storage of any persistent data. Such data should be stored on an iSCSI volume created with NetApp HCI storage or can be on NFS datastore on NetApp AFF.
 
@@ -99,7 +99,7 @@ With the current features available in NetApp HCI, the Intellicache feature of C
 
 Read caching allows you to improve performance for certain storage repositories by caching data in server memory. GFS2 is the first iSCSI volume to support read caching.
 
-=== Network
+== Network
 
 Citrix Hypervisor networking is based on Open vSwitch with support for OpenFlow. It supports fine grain security policies to control the traffic sent and receive from a VM.  It also provides detailed visibility about the behavior and performance of all traffic sent in the virtual network environment. The following figure presents an overview of Citrix Hypervisor networking.
 
@@ -131,7 +131,7 @@ When used with Citrix Provisioning (PVS), PVS Accelerator improves performance b
 
 image:citrix_image21.png[Error: Missing Graphic Image]
 
-=== GPU
+== GPU
 
 Citrix Hypervisor was the first to deploy NVIDIA vGPUs, a virtualization platform for GPUs, enabling the sharing of GPU across multiple virtual machines. NetApp HCI H610C (with NVIDIA Tesla M10 cards) and H615C (with NVIDIA Tesla T4 cards) can provide GPU resources to virtual desktops, providing hardware acceleration to enhance the user experience.
 
@@ -155,7 +155,7 @@ Independently from XenCenter, the CLI utility on the Citrix Hypervisor nvidia-sm
 
 The NVIDIA driver on a virtual machine is required to access the virtual GPU. Typically, the hypervisor driver version and the VM guest driver should have the same vGPU release version. But, starting with vGPU release 10, the hypervisor can have the latest version while the VM driver can be the n-1 version.
 
-=== Security
+== Security
 
 Citrix Hypervisor supports authentication, authorization, and audit controls. Authentication is controlled by local accounts as well as by Active Directory. Users and groups can be assigned to roles that control permission to resources. Events and logging can be stored remotely in addition to on the local server.
 
@@ -163,7 +163,7 @@ Citrix Hypervisor supports Transport Layer Security (TLS) 1.2 to encrypt the tra
 
 Because most configuration is stored locally in an XML database, some of the contents, like SMB passwords, are in clear text, so you must protect access to the hypervisor.
 
-=== Data Protection
+== Data Protection
 
 Virtual machines can be exported as OVA files, which can be used to import them to other hypervisors. Virtual machines can also be exported in the native XVA format and imported to any other Citrix Hypervisor. For disaster recovery, this second option is also available along with storage- based replication handled by SnapMirror or native Element OS synchronous or asynchronous replication. With NetApp, HCI storage can also be paired with ONTAP storage for replication.
 

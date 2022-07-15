@@ -22,7 +22,7 @@ summary:
 
 Mellanox SN2010 switches are used in this deployment procedure to provide 25Gbps connectivity for the data plane of the compute and storage nodes.  These steps begin after the switches have been racked, cabled,  and put through the initial setup process.  To configure the switches to provide data connectivity to the infrastructure, complete the following steps:
 
-=== Create MLAG Cluster to Provide Fault Tolerance
+== Create MLAG Cluster to Provide Fault Tolerance
 
 . Run the following commands on each Mellanox SN210 switch for general configuration:
 +
@@ -143,7 +143,7 @@ Switch-01 (config) # no mlag shutdown
 
 The IP used for the MLAG VIP must be in the same subnet as the switch management network (mgmt0).  Also, The MAC address used can be any unicast MAC address and must be set to the same value on both switches in the MLAG domain.
 
-=== Configure Ports to Connect to Storage and Compute Hosts
+== Configure Ports to Connect to Storage and Compute Hosts
 
 . Create each of the VLANs needed to support the services for NetApp HCI. Run these commands on each switch in the domain:
 
