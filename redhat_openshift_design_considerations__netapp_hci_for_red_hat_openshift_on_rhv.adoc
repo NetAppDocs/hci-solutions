@@ -20,11 +20,11 @@ summary:
 
 [.lead]
 
-=== Network Design
+== Network Design
 
 The Red Hat OpenShift on RHV on HCI solution uses two data switches to provide primary data connectivity at 25Gbps. It also uses two additional management switches that provide connectivity at 1Gbps for in-band management for the storage nodes and out-of-band management for IPMI functionality.  OCP uses the logical network on the RHV for the cluster management.  This section describes the arrangement and purpose of each virtual network segment used in the solution and outlines the pre-requisites for deployment of the solution.
 
-==== VLAN Requirements
+=== VLAN Requirements
 
 The NetApp HCI for Red Hat OpenShift on RHV solution is designed to logically separate network traffic for different purposes by using virtual local area networks (VLANs). NetApp HCI requires a minimum of three network segments. However, this configuration can be scaled to meet customer demands or to provide further isolation for specific network services. The following table lists the VLANs that are required to implement the solution, as well as the specific VLAN IDs that are used later in the verified architecture deployment.
 
@@ -45,7 +45,7 @@ The NetApp HCI for Red Hat OpenShift on RHV solution is designed to logically se
 |3345
 |===
 
-==== Network Infrastructure Support Resources
+=== Network Infrastructure Support Resources
 
 The following infrastructure should be in place prior to the deployment of the OpenShift Container Platform (OCP) on Red Hat Virtualization on NetApp HCI solution:
 
