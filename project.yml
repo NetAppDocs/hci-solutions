@@ -328,8 +328,6 @@ sidebar:
                   url: /hciaiedge_collect_inference_metrics_from_triton_inference_server.html
             - title: Validation Results
               url: /hciaiedge_validation_results.html
-            - title:
-              url: /hciaiedge_.html
             - title: Additional Information
               url: /hciaiedge_additional_information.html
     - title: Security
