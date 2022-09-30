@@ -13,7 +13,7 @@ keywords: NDE, vCenter, vSphere, Active IQ
 :linkattrs:
 :imagesdir: ./media/
 
-NDE delivers a simple and streamlined deployment experience for the NetApp HCI solution. A detailed guide to using NDE 1.6 to deploy your NetApp HCI system can be found link:https://library.netapp.com/ecm/ecm_download_file/ECMLP2856899[here^].
+NDE delivers a simple and streamlined deployment experience for the NetApp HCI solution. A detailed guide to using NDE 1.6 to deploy your NetApp HCI system can be found link:https://docs.netapp.com/hci/topic/com.netapp.doc.hci-ude-16p1/home.html[here^].
 
 These steps begin after the nodes have been racked, and cabled, and the IPMI port has been configured on each node using the console. To Deploy the NetApp HCI solution using NDE, complete the following steps:
 
