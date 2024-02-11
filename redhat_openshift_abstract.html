@@ -1,0 +1,3082 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head class="at-element-marker">
+  <title>Abstract</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge,chrome=1">
+  <meta http-equiv="language" content="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Abstract" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_abstract.html" />
+	<meta property="og:description" content="" />
+  <meta property="og:image" content="https://docs.netapp.com/us-en/hci-solutions/images/logo-tophat-social.png" />
+  <meta property="og:image:alt" content="NetApp Logo" />
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="encoding" content="utf-8">
+  <meta http-equiv="nss-type" content="Product Documentation"/>
+  <meta http-equiv="nss-subtype" content="User Guide"/><meta name="description" content="">
+  <meta name="keywords" content=" "><!-- Icons -->
+  <link rel="icon" href="/us-en/hci-solutions/images/favicon.ico" type="image/x-icon">
+
+  <!-- RSS Feed --><!-- CSS Definitions: NetApp CSS should be defined after generic css -->
+
+
+  <!-- Combined CSS -->
+  <link rel="stylesheet" type="text/css" href="/us-en/hci-solutions/css/ie-netappdocs.css">
+
+  
+  <link rel="stylesheet" href="/us-en/hci-solutions/css/ie-landing-page.css" type="text/css">
+  <link rel="stylesheet" href="/us-en/hci-solutions/css/ie-tabbed-blocks.css" type="text/css">
+  <!-- Canonical url -->
+  <link rel="canonical" href="https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_abstract.html" />
+  <link rel="alternate" hreflang="x-default" href="https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_abstract.html" />
+  <link rel="alternate" hreflang="en" href="https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_abstract.html" />
+  <link rel="alternate" hreflang="ja" href="https://docs.netapp.com/ja-jp/hci-solutions/redhat_openshift_abstract.html" />
+  <link rel="alternate" hreflang="ko" href="https://docs.netapp.com/ko-kr/hci-solutions/redhat_openshift_abstract.html" />
+  <link rel="alternate" hreflang="zh-Hans" href="https://docs.netapp.com/zh-cn/hci-solutions/redhat_openshift_abstract.html" />
+  <link rel="alternate" hreflang="zh-Hant" href="https://docs.netapp.com/zh-tw/hci-solutions/redhat_openshift_abstract.html" />
+  <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/hci-solutions/redhat_openshift_abstract.html" />
+  <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/hci-solutions/redhat_openshift_abstract.html" />
+  <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/hci-solutions/redhat_openshift_abstract.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/hci-solutions/redhat_openshift_abstract.html" />
+  <!-- Top level site integrations -->
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js"></script>
+    <script type="text/javascript" src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" charset="UTF-8" data-document-language="true" data-domain-script="72570c5c-fe30-465f-b0e0-b77f7fb4ae34"></script>
+    <script type="text/javascript">function OptanonWrapper() { }</script>
+    <script type="text/plain" class="optanon-category-C0002" src="https://assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js"></script>
+    <script class="optanon-category-C0001">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.setAttributeNode(d.createAttribute('data-ot-ignore'));j.setAttribute('class','optanon-category-C0001');j.async=true;
+        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl+'';f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MD73T9M');</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+      const MASTHEAD_OFFSET = 65;
+      const SECTIONS = $("main h2, main h3");
+      // PAGE NAV - Init
+      if (SECTIONS.length == 0) {
+        // remove if there is no elements
+        /*
+        $("#ie-right-navbar").remove();
+        $("#ie-right-navbar-collapse").remove();
+        */
+      } else {
+        $(".page-nav-title").css('display', 'block');
+        for (var i = 0; i < SECTIONS.length; i++) {
+          var sectionId = $(SECTIONS[i]).attr('id');
+          var sectionName = $(SECTIONS[i]).text();
+          var subClass = $(SECTIONS[i]).is("h3") ? ' page-nav__sublink' : '';
+          $("#page-menu").append('<li class="page-nav-item"><a href="#' + sectionId + '" class="page-nav__link' + subClass + '">' + sectionName + '</a></li>');
+        }
+      }
+    });
+  </script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+  <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.5/bluebird.min.js"></script><script src='/us-en/hci-solutions/js/na-search.js'></script><script src='/us-en/hci-solutions/js/ie-clouddocs.js'></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script>
+    /*
+      $(document).ready(function() {
+          $("#tg-sb-link").click(function() {
+              $("#tg-sb-sidebar").toggle();
+              $("#tg-sb-content").toggleClass('col-md-9');
+              $("#tg-sb-content").toggleClass('col-md-12');
+              $("#tg-sb-icon").toggleClass('fa-toggle-on');
+              $("#tg-sb-icon").toggleClass('fa-toggle-off');
+          });
+      });
+      */
+  </script>
+  <script src='/us-en/hci-solutions/js/custom-dropdown.js'></script>
+  <script src='/us-en/hci-solutions/js/FileSaver.min.js'></script>
+  <script src='/us-en/hci-solutions/js/jszip-utils.min.js'></script>
+  <script src='/us-en/hci-solutions/js/jszip.min.js'></script><script src='/us-en/hci-solutions/js/ie-pdf-ux.js'></script></head>
+
+
+  <body class role="document" data-flavor="">
+    <div class="skip-to-main">
+      <a href="#main" >Skip to main content</a>
+    </div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MD73T9M"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><div id="page" class="">
+      <div id="ie-phone-menu" class=""></div>
+      <div id="ie-content-wrap" class="">
+        <nav id="ie-new-header">
+    <ul>
+        <li id="ie-phone-menu-button">
+            <a href="#">
+                <image id="" src="/us-en/hci-solutions/images/hamburger.svg" alt="menu" />
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.netapp.com/">
+                <image id="ie-header-logo" src="/us-en/hci-solutions/images/netapp_logo.svg" alt="netapp" />
+            </a>
+        </li>
+        <li id="ie-header-docs">
+            <a href="https://www.netapp.com/support-and-training/documentation/">Docs</a>
+        </li>
+
+        <!-- Empty container to push header left with or without lang selector -->
+        <li id="empty-container" style="margin-left: auto">
+        </li>
+        <!-- Start Language Selector --></li>
+        <!-- End Language Selector -->
+
+
+        <li id="ie-allnetapp">
+            <div id="allnetapp-dropdown" class="custom-dropdown custom-dropdown-allnetapp">
+                <div class="custom-dropdown-select custom-dropdown-select-allnetapp">
+                    <img src="/us-en/hci-solutions/images/apps_white_24dp.svg" alt="" class="allnetapp-icon" />
+                    <span class="allnetapp-name">All NetApp</span>
+                    <img src="/us-en/hci-solutions/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown header invisible" />
+                    <img src="/us-en/hci-solutions/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup header" />
+                    </button>
+                </div>
+
+                <ul class="custom-dropdown-menu allnetapp-dropdown">
+                    <li>
+                        <a href="https://bluexp.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">BlueXP</span></a>
+                    </li>
+                    <li>
+                        <a href="https://mysupport.netapp.com/site/"
+                            target="_self"><span translate="no" class="notranslate">Support</span></a>
+                    </li>
+                    <li>
+                        <a href="https://kb.netapp.com/"
+                            target="_self"><span translate="no" class="notranslate">Knowledge Base</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.netapp.com/support-and-training/netapp-learning-services/"
+                            target="_self"><span translate="no" class="notranslate">Training</span></a>
+                    </li>
+                </ul>
+            </div>
+
+        </li>
+
+    </ul>
+</nav>
+
+        <main id="n-main-content" class="n-main-content">
+          <!-- Start Documentation Content -->
+<div class="ie-main">
+
+<div id="ie-new-sidebar-collapse" style="display: none">
+    <img id="sidebar-expand" class="ie-searchbox-icon" src="/us-en/hci-solutions/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-new-sidebar">
+    <div id="ie-product-identity-lockup">
+        <div id="sidebar-collapse" class="">
+            <img src="/us-en/hci-solutions/images/double_arrow.svg" alt="" />
+        </div>
+        <div id="ie-breadcrumb" class="">
+  <ul class="ie-breadcrumb">
+    <li class="">
+      <a href="https://docs.netapp.com">All docs</a>
+    </li>
+    
+    
+
+    
+  </ul>
+  
+  <div class="ie-product-name" >
+    <!--<a href="/us-en/hci-solutions/">-->
+      NetApp HCI Solutions
+    <!--</a>-->
+  </div>
+</div>
+
+            
+
+        
+        
+
+<div id="ie-searchbox" class="ie-searchbox-sidebar ">
+    <img class="ie-searchbox-icon" src="/us-en/hci-solutions/images/loupe.svg" alt=""/>
+    <div id="react-search" 
+        data-search-html="/us-en/hci-solutions/search.html" 
+        data-type="widget"
+        data-placeholder="Search documentation"
+        data-no-results-found="No results were found for {query}"
+        data-did-you-mean="Search for {suggestion}."
+        data-no-results-found-did-you-mean="No results found for {query}. Did you mean {suggestion}?"
+        data-results-found="{hitCount} results found"
+        data-error-message="An error occurred. Please try again."
+        data-error-reset="Reset search"
+        data-sk-es-pf-indexes="" 
+        data-flavor="">
+    </div>
+</div>
+        
+    </div>
+    <div id="ie-new-toc"><script>
+  let sidebarAccordion = true;
+
+  /* specific css rules for Mac */
+  if(navigator.platform.match('Mac') !== null) {
+    document.body.setAttribute('class', 'OSX');
+  }
+
+</script>
+
+<div id="ie-sidebar-container">
+  <ul id="ie-sidebar-list" ><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp HCI Sales & Partner Kits"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/sales-partner-kits.html" 
+    ><a class="ie-sidebar-menuitem-1 " href="/us-en/hci-solutions/sales-partner-kits.html">
+        NetApp HCI Sales & Partner Kits
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Private Cloud"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Private Cloud</div>-->
+         Private Cloud
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="false" 
+      data-pdf-filename="VMware Private Cloud (Design Guide)"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/nva-1122-design.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/nva-1122-design.pdf">
+        VMware Private Cloud (Design Guide)
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="VMware Private Cloud (Deployment Guide)"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/nva-1122-deploy.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/nva-1122-deploy.pdf">
+        VMware Private Cloud (Deployment Guide)
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="VMware Validated Design"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/nva-1128-design.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/nva-1128-design.pdf">
+        VMware Validated Design
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Private Cloud with Red Hat (Design Guide)"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/nva-1133-design.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/nva-1133-design.pdf">
+        Private Cloud with Red Hat (Design Guide)
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Private Cloud with Red Hat (Deployment Guide)"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/nva-1133-deploy.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/nva-1133-deploy.pdf">
+        Private Cloud with Red Hat (Deployment Guide)
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="End User Computing (EUC)"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> End User Computing (EUC)</div>-->
+         End User Computing (EUC)
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Hybrid Cloud VDI with NetApp Virtual Desktop Service"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_hybrid_cloud_vdi_with_virtual_desktop_service.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/hci-solutions/hcvdivds_hybrid_cloud_vdi_with_virtual_desktop_service.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Hybrid Cloud VDI with NetApp Virtual Desktop Service</div>-->
+         Hybrid Cloud VDI with NetApp Virtual Desktop Service
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Use Cases"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_use_cases.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_use_cases.html">
+        Use Cases
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp Virtual Desktop Service Overview"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_netapp_virtual_desktop_service_overview.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_netapp_virtual_desktop_service_overview.html">
+        NetApp Virtual Desktop Service Overview
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp HCI Overview"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_netapp_hci_overview.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_netapp_hci_overview.html">
+        NetApp HCI Overview
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NVIDIA Licensing"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_nvidia_licensing.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_nvidia_licensing.html">
+        NVIDIA Licensing
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deployment"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_deployment.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_deployment.html">
+        Deployment
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Hybrid Cloud Environment"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_hybrid_cloud_environment.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_hybrid_cloud_environment.html">
+        Hybrid Cloud Environment
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Single Server Load Test with Login VSI"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_single_server_load_test_with_login_vsi.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_single_server_load_test_with_login_vsi.html">
+        Single Server Load Test with Login VSI
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Management Portal"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_management_portal.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_management_portal.html">
+        Management Portal
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="User Management"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_user_management.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_user_management.html">
+        User Management
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Workspace Management"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_workspace_management.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_workspace_management.html">
+        Workspace Management
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Application Management"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_application_management.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_application_management.html">
+        Application Management
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Data Management"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_data_management.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_data_management.html">
+        Data Management
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Operation Management"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_operation_management.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_operation_management.html">
+        Operation Management
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Tools and Logs"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_tools_and_logs.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_tools_and_logs.html">
+        Tools and Logs
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Conclusion"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_conclusion.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_conclusion.html">
+        Conclusion
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Where to Find Additional Information"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcvdivds_where_to_find_additional_information.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcvdivds_where_to_find_additional_information.html">
+        Where to Find Additional Information
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="EUC with VMware Horizon"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/nhci_euc_vmware.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/hci-solutions/nhci_euc_vmware.html">
+        EUC with VMware Horizon
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Citrix Virtual Apps and Desktops with VMware vSphere (Design Guide)"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/nva-1140-design.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/nva-1140-design.pdf">
+        Citrix Virtual Apps and Desktops with VMware vSphere (Design Guide)
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="NetApp HCI for Dassault Systèmes CATIA"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4837.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4837.pdf">
+        NetApp HCI for Dassault Systèmes CATIA
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="HCI for Citrix Virtual Apps"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_executive_summary.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/hci-solutions/citrix_executive_summary.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> HCI for Citrix Virtual Apps</div>-->
+         HCI for Citrix Virtual Apps
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Solution Overview"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_solution_overview.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/citrix_solution_overview.html">
+        Solution Overview
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Physical Infrastructure"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_physical_infrastructure.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/citrix_physical_infrastructure.html">
+        Physical Infrastructure
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Citrix Hypervisor"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_citrix_hypervisor.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/citrix_citrix_hypervisor.html">
+        Citrix Hypervisor
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Resource Layer"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_resource_layer.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/citrix_resource_layer.html">
+        Resource Layer
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Control Layer"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_control_layer.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/citrix_control_layer.html">
+        Control Layer
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Access Layer"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_access_layer.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/citrix_access_layer.html">
+        Access Layer
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="User Layer"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_user_layer.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/citrix_user_layer.html">
+        User Layer
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp Value"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_netapp_value.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/citrix_netapp_value.html">
+        NetApp Value
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Appendix  iSCSI Device Configuration"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_appendix__iscsi_device_configuration.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/citrix_appendix__iscsi_device_configuration.html">
+        Appendix  iSCSI Device Configuration
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Where to Find Additional Information"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/citrix_where_to_find_additional_information.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/citrix_where_to_find_additional_information.html">
+        Where to Find Additional Information
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Infrastructure"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Infrastructure</div>-->
+         Infrastructure
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp HCI with Red Hat Virtualization"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_solution_overview__netapp_hci_with_rhv.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/hci-solutions/redhat_virtualization_solution_overview__netapp_hci_with_rhv.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> NetApp HCI with Red Hat Virtualization</div>-->
+         NetApp HCI with Red Hat Virtualization
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Architecture Overview  NetApp HCI with RHV"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_architecture_overview__netapp_hci_with_rhv.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/redhat_virtualization_architecture_overview__netapp_hci_with_rhv.html">
+        Architecture Overview  NetApp HCI with RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Design Considerations  NetApp HCI with RHV"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_design_considerations__netapp_hci_with_rhv.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/redhat_virtualization_design_considerations__netapp_hci_with_rhv.html">
+        Design Considerations  NetApp HCI with RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deployment Procedures  NetApp HCI with RHV"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Deployment Procedures  NetApp HCI with RHV</div>-->
+         Deployment Procedures  NetApp HCI with RHV
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deployment Summary  NetApp HCI with RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_deployment_summary__netapp_hci_with_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_deployment_summary__netapp_hci_with_rhv.html">
+        Deployment Summary  NetApp HCI with RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="1. Configure Management Switches  NetApp HCI with RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_1._configure_management_switches__netapp_hci_with_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_1._configure_management_switches__netapp_hci_with_rhv.html">
+        1. Configure Management Switches  NetApp HCI with RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="2. Configure Data Switches  NetApp HCI with RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_2._configure_data_switches__netapp_hci_with_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_2._configure_data_switches__netapp_hci_with_rhv.html">
+        2. Configure Data Switches  NetApp HCI with RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="3. Deploy the Element Storage System on the HCI Storage Nodes  NetApp HCI with RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_3._deploy_the_element_storage_system_on_the_hci_storage_nodes__netapp_hci_with_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_3._deploy_the_element_storage_system_on_the_hci_storage_nodes__netapp_hci_with_rhv.html">
+        3. Deploy the Element Storage System on the HCI Storage Nodes  NetApp HCI with RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="4. Deploy the RHV-H Hypervisor on the HCI Compute Nodes  NetApp HCI with RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_4._deploy_the_rhv-h_hypervisor_on_the_hci_compute_nodes__netapp_hci_with_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_4._deploy_the_rhv-h_hypervisor_on_the_hci_compute_nodes__netapp_hci_with_rhv.html">
+        4. Deploy the RHV-H Hypervisor on the HCI Compute Nodes  NetApp HCI with RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="5. Deploy the RHV Manager as a Self-Hosted Engine"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_5._deploy_the_rhv_manager_as_a_self-hosted_engine.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_5._deploy_the_rhv_manager_as_a_self-hosted_engine.html">
+        5. Deploy the RHV Manager as a Self-Hosted Engine
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="6. Configure RHV-M Infrastructure"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_6._configure_rhv-m_infrastructure.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_6._configure_rhv-m_infrastructure.html">
+        6. Configure RHV-M Infrastructure
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="7. Deploy the NetApp mNode"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_7._deploy_the_netapp_mnode.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_7._deploy_the_netapp_mnode.html">
+        7. Deploy the NetApp mNode
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Best Practices for Production Deployments"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Best Practices for Production Deployments</div>-->
+         Best Practices for Production Deployments
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Updating RHV Manager and RHV-H Hosts"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_updating_rhv_manager_and_rhv-h_hosts.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_updating_rhv_manager_and_rhv-h_hosts.html">
+        Updating RHV Manager and RHV-H Hosts
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Enabling Fencing for RHV-H Hosts"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_enabling_fencing_for_rhv-h_hosts.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_enabling_fencing_for_rhv-h_hosts.html">
+        Enabling Fencing for RHV-H Hosts
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Optimizing Memory for Red Hat Virtualization"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_optimizing_memory_for_red_hat_virtualization.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_virtualization_optimizing_memory_for_red_hat_virtualization.html">
+        Optimizing Memory for Red Hat Virtualization
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Where to Find Additional Information  NetApp HCI with RHV"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_virtualization_where_to_find_additional_information__netapp_hci_with_rhv.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/redhat_virtualization_where_to_find_additional_information__netapp_hci_with_rhv.html">
+        Where to Find Additional Information  NetApp HCI with RHV
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp HCI with Cisco ACI"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_netapp_hci_with_cisco_aci.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/hci-solutions/hcicaci_netapp_hci_with_cisco_aci.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> NetApp HCI with Cisco ACI</div>-->
+         NetApp HCI with Cisco ACI
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Use Cases"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_use_cases.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcicaci_use_cases.html">
+        Use Cases
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Architecture"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_architecture.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcicaci_architecture.html">
+        Architecture
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Design Considerations"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_design_considerations.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcicaci_design_considerations.html">
+        Design Considerations
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deploying NetApp HCI with Cisco ACI"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Deploying NetApp HCI with Cisco ACI</div>-->
+         Deploying NetApp HCI with Cisco ACI
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="VMware vSphere"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_vmware_vsphere__netapp_hci_with_cisco_aci.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hcicaci_vmware_vsphere__netapp_hci_with_cisco_aci.html">
+        VMware vSphere
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Red Hat Virtualization"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_RHV__netapp_hci_with_cisco_aci.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hcicaci_RHV__netapp_hci_with_cisco_aci.html">
+        Red Hat Virtualization
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="KVM on RHEL"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_kvm_on_rhel__netapp_hci_with_cisco_aci.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hcicaci_kvm_on_rhel__netapp_hci_with_cisco_aci.html">
+        KVM on RHEL
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ONTAP on AFF"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_ontap_on_aff__netapp_hci_and_cisco_aci.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hcicaci_ontap_on_aff__netapp_hci_and_cisco_aci.html">
+        ONTAP on AFF
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="ONTAP Select with VMware vSphere"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_ontap_select_with_vmware_vsphere__netapp_hci_and_cisco_aci.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hcicaci_ontap_select_with_vmware_vsphere__netapp_hci_and_cisco_aci.html">
+        ONTAP Select with VMware vSphere
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="StorageGRID with VMware vSphere"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_storagegrid_with_vmware_vsphere__netapp_hci_and_cisco_aci.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hcicaci_storagegrid_with_vmware_vsphere__netapp_hci_and_cisco_aci.html">
+        StorageGRID with VMware vSphere
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Validation Results"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_validation_results.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcicaci_validation_results.html">
+        Validation Results
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Where to Find Additional Information"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hcicaci_additional_information.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hcicaci_additional_information.html">
+        Where to Find Additional Information
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Containers and DevOps"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Containers and DevOps</div>-->
+         Containers and DevOps
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Infrastructure as Code with Red Hat Ansible"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/wp-7304.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/wp-7304.pdf">
+        Infrastructure as Code with Red Hat Ansible
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Red Hat Openshift Container Platform (Design Guide)"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/nva-1124-design.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/nva-1124-design.pdf">
+        Red Hat Openshift Container Platform (Design Guide)
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Red Hat Openshift Container Platform (Deployment Guide)"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/nva-1124-deploy.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/nva-1124-deploy.pdf">
+        Red Hat Openshift Container Platform (Deployment Guide)
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp HCI with Anthos"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_concept_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/hci-solutions/anthos_concept_overview.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> NetApp HCI with Anthos</div>-->
+         NetApp HCI with Anthos
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Solution Components"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_concept_solution_components.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/anthos_concept_solution_components.html">
+        Solution Components
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Design Considerations"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_reference_design_considerations.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/anthos_reference_design_considerations.html">
+        Design Considerations
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Hardware and Software Requirements"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_reference_hardware_software_requirements.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/anthos_reference_hardware_software_requirements.html">
+        Hardware and Software Requirements
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deployment Steps"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_reference_workflow_summary.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/anthos_reference_workflow_summary.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Deployment Steps</div>-->
+         Deployment Steps
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="1. Configure Management Switches"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_configure_management_switches.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_configure_management_switches.html">
+        1. Configure Management Switches
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="2. Configure Data Switches"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_configure_data_switches.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_configure_data_switches.html">
+        2. Configure Data Switches
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="3. Deploy NetApp HCI with the NetApp Deployment Engine"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_deploy_netapp_hci.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_deploy_netapp_hci.html">
+        3. Deploy NetApp HCI with the NetApp Deployment Engine
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="4. Configure the vCenter Server"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_configure_the_vcenter_server.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_configure_the_vcenter_server.html">
+        4. Configure the vCenter Server
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="5. Deploy and Configure the F5 Big-IP Virtual Edition Appliance"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_deploy_the_f5_big-ip.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_deploy_the_f5_big-ip.html">
+        5. Deploy and Configure the F5 Big-IP Virtual Edition Appliance
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="6. Complete Anthos Prerequisites"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_complete_anthos_prerequisites.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_complete_anthos_prerequisites.html">
+        6. Complete Anthos Prerequisites
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="7. Deploy the Anthos Admin Workstation"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_deploy_the_anthos_admin_workstation.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_deploy_the_anthos_admin_workstation.html">
+        7. Deploy the Anthos Admin Workstation
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="8. Deploy the Admin and the First User Cluster"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_deploy_the_admin.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_deploy_the_admin.html">
+        8. Deploy the Admin and the First User Cluster
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="9. Deploy Additional User Clusters"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_deploy_additional_user_clusters.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_deploy_additional_user_clusters.html">
+        9. Deploy Additional User Clusters
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="10. Enable Access to the Cluster with the GKE Console"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_enable_access_to_the_cluster.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_enable_access_to_the_cluster.html">
+        10. Enable Access to the Cluster with the GKE Console
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="11. Install and Configure NetApp Trident Storage Provisioner"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_task_install_and_configure_trident.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/anthos_task_install_and_configure_trident.html">
+        11. Install and Configure NetApp Trident Storage Provisioner
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Video Demos"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_reference_video_demos.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/anthos_reference_video_demos.html">
+        Video Demos
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Additional Information"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/anthos_reference_addition_information.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/anthos_reference_addition_information.html">
+        Additional Information
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp HCI for Red Hat OpenShift on Red Hat Virtualization"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_solution_overview__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/hci-solutions/redhat_openshift_solution_overview__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> NetApp HCI for Red Hat OpenShift on Red Hat Virtualization</div>-->
+         NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Architectural Overview  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_architectural_overview__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/redhat_openshift_architectural_overview__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        Architectural Overview  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Design Considerations  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_design_considerations__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/redhat_openshift_design_considerations__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        Design Considerations  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deploying NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-3  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Deploying NetApp HCI for Red Hat OpenShift on RHV</div>-->
+         Deploying NetApp HCI for Red Hat OpenShift on RHV
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deployment Summary"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_deployment_summary.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_openshift_deployment_summary.html">
+        Deployment Summary
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="1. Create Storage Network VLAN  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_1._create_storage_network_vlan__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_openshift_1._create_storage_network_vlan__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        1. Create Storage Network VLAN  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="2. Download OpenShift Installation Files  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_2._download_openshift_installation_files__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_openshift_2._download_openshift_installation_files__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        2. Download OpenShift Installation Files  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="3. Download CA Certificate from RHV  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_3._download_ca_certificate_from_rhv__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_openshift_3._download_ca_certificate_from_rhv__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        3. Download CA Certificate from RHV  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="4. Register API/Apps in DNS  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_4._register_api_apps_in_dns__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_openshift_4._register_api_apps_in_dns__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        4. Register API/Apps in DNS  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="5. Generate and Add SSH Private Key  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_5._generate_and_add_ssh_private_key__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_openshift_5._generate_and_add_ssh_private_key__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        5. Generate and Add SSH Private Key  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="6. Install OpenShift Container Platform  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_6._install_openshift_container_platform__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_openshift_6._install_openshift_container_platform__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        6. Install OpenShift Container Platform  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="7. Access Console/Web Console  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_7._access_console_web_console__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_openshift_7._access_console_web_console__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        7. Access Console/Web Console  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="8. Configure Worker Nodes to Run Storage Services  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_8._configure_worker_nodes_to_run_storage_services__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_openshift_8._configure_worker_nodes_to_run_storage_services__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        8. Configure Worker Nodes to Run Storage Services  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="9. Download and Install NetApp Trident  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_9._download_and_install_netapp_trident__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/redhat_openshift_9._download_and_install_netapp_trident__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        9. Download and Install NetApp Trident  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Validation Results  NetApp HCI for Red Hat OpenShift on RHV"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_validation_results__netapp_hci_for_red_hat_openshift_on_rhv.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/redhat_openshift_validation_results__netapp_hci_for_red_hat_openshift_on_rhv.html">
+        Validation Results  NetApp HCI for Red Hat OpenShift on RHV
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Best Practices for Production Deployments"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_best_practices_for_production_deployments.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/redhat_openshift_best_practices_for_production_deployments.html">
+        Best Practices for Production Deployments
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Videos and Demos  NetApp HCI for Red Hat OpenShift on Red Hat Virtualization"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_videos_and_demos__netapp_hci_for_red_hat_openshift_on_red_hat_virtualization.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/redhat_openshift_videos_and_demos__netapp_hci_for_red_hat_openshift_on_red_hat_virtualization.html">
+        Videos and Demos  NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Additional Information  NetApp HCI for Red Hat OpenShift on Red Hat Virtualization"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/redhat_openshift_additional_information__netapp_hci_for_red_hat_openshift_on_red_hat_virtualization.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/redhat_openshift_additional_information__netapp_hci_for_red_hat_openshift_on_red_hat_virtualization.html">
+        Additional Information  NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Database"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Database</div>-->
+         Database
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="false" 
+      data-pdf-filename="MongoDB"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4633.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4633.pdf">
+        MongoDB
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Oracle"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4768.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4768.pdf">
+        Oracle
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Sybase ASE"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4721.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4721.pdf">
+        Sybase ASE
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="SQL Server"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4638.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4638.pdf">
+        SQL Server
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Data Fabric"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Data Fabric</div>-->
+         Data Fabric
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Build your Data Fabric with NetApp HCI, ONTAP and Converged Infrastructure"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4748.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4748.pdf">
+        Build your Data Fabric with NetApp HCI, ONTAP and Converged Infrastructure
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="StorageGrid Deployment on NetApp HCI"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4734.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4734.pdf">
+        StorageGrid Deployment on NetApp HCI
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Data Protection"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Data Protection</div>-->
+         Data Protection
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="false" 
+      data-pdf-filename="NetApp HCI Data Protection Overview"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4641.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4641.pdf">
+        NetApp HCI Data Protection Overview
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Multicloud Data Protection with Cloud Volumes ONTAP"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/nva-1137.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/nva-1137.pdf">
+        Multicloud Data Protection with Cloud Volumes ONTAP
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Disaster Recovery and Replication with VMware SRM"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4795.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4795.pdf">
+        Disaster Recovery and Replication with VMware SRM
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Splunk Enterprise with Arrow Appliance"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4778.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4778.pdf">
+        Splunk Enterprise with Arrow Appliance
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Veeam Backup and Replication 9.5 v4"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/tr-4634.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/tr-4634.pdf">
+        Veeam Backup and Replication 9.5 v4
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="NetApp Scale-Out Data Protection with Commvault"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="http://www.netapp.com/us/media/tr-4831.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="http://www.netapp.com/us/media/tr-4831.pdf">
+        NetApp Scale-Out Data Protection with Commvault
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="NetApp HCI Disaster Recovery with Cleondris"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/cleondris_disaster_recovery_overview.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/hci-solutions/cleondris_disaster_recovery_overview.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> NetApp HCI Disaster Recovery with Cleondris</div>-->
+         NetApp HCI Disaster Recovery with Cleondris
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Installing Cleondris"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/cleondris_installing_cleondris.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/cleondris_installing_cleondris.html">
+        Installing Cleondris
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Configuring Cleondris"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/cleondris_configuring_cleondris.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/cleondris_configuring_cleondris.html">
+        Configuring Cleondris
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Disaster Recovery Pairing"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/cleondris_disaster_recovery_pairing.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/cleondris_disaster_recovery_pairing.html">
+        Disaster Recovery Pairing
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Recovery Organization"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/cleondris_recovery_organization.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/cleondris_recovery_organization.html">
+        Recovery Organization
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Failover"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/cleondris_failover.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/cleondris_failover.html">
+        Failover
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Best Practices"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="cleondris_best_practices.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/cleondris_best_practices.html">
+        Best Practices
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Additional Information"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/cleondris_additional_information.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/cleondris_additional_information.html">
+        Additional Information
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Artificial Intelligence (AI)"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Artificial Intelligence (AI)</div>-->
+         Artificial Intelligence (AI)
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="AI Inferencing on the Edge Data Center with H615c and NVIDIA T4"
+      data-li-level="2" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_nva-1144_netapp_hci_ai_inferencing_at_the_edge_data_center_with_h615c_and_t4.html" 
+    ><a class="ie-sidebar-menuitem-2 " href="/us-en/hci-solutions/hciaiedge_nva-1144_netapp_hci_ai_inferencing_at_the_edge_data_center_with_h615c_and_t4.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> AI Inferencing on the Edge Data Center with H615c and NVIDIA T4</div>-->
+         AI Inferencing on the Edge Data Center with H615c and NVIDIA T4
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Use Cases"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_use_cases.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hciaiedge_use_cases.html">
+        Use Cases
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Architecture"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_architecture.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hciaiedge_architecture.html">
+        Architecture
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Design Considerations"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_design_considerations.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hciaiedge_design_considerations.html">
+        Design Considerations
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deploying NetApp HCI – AI Inferencing at the Edge"
+      data-li-level="3" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_deploying_netapp_hci__ai_inferencing_at_the_edge_overview.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hciaiedge_deploying_netapp_hci__ai_inferencing_at_the_edge_overview.html">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Deploying NetApp HCI – AI Inferencing at the Edge</div>-->
+         Deploying NetApp HCI – AI Inferencing at the Edge
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Configure Network Switches (Automated Deployment)"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_configure_network_switches_automated_deployment.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hciaiedge_configure_network_switches_automated_deployment.html">
+        Configure Network Switches (Automated Deployment)
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Virtual Infrastructure with Automated Deployment"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_virtual_infrastructure_with__automated_deployment.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hciaiedge_virtual_infrastructure_with__automated_deployment.html">
+        Virtual Infrastructure with Automated Deployment
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Configure NetApp H615c (Manual Deployment)"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_netapp_h615cmanual_deployment.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hciaiedge_netapp_h615cmanual_deployment.html">
+        Configure NetApp H615c (Manual Deployment)
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Set Up the Deployment Jump and the Kubernetes Master Node VMs Manual Deployment"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_setp_the_deployment_jump__and_the_kubernetes_master_node_vms_manual_deployment.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hciaiedge_setp_the_deployment_jump__and_the_kubernetes_master_node_vms_manual_deployment.html">
+        Set Up the Deployment Jump and the Kubernetes Master Node VMs Manual Deployment
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deploy a Kubernetes Cluster with NVIDIA DeepOps Automated Deployment"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_deploy_a_kubernetes_cluster_with_nvidia_deepops_automated_deployment.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hciaiedge_deploy_a_kubernetes_cluster_with_nvidia_deepops_automated_deployment.html">
+        Deploy a Kubernetes Cluster with NVIDIA DeepOps Automated Deployment
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deploy and Configure ONTAP Select in the VMware Virtual Infrastructure Automated Deployment"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_deploy_and_onfigure_ontap_select_in_the_vmware_virtual_infrastructure_automated_deployment.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hciaiedge_deploy_and_onfigure_ontap_select_in_the_vmware_virtual_infrastructure_automated_deployment.html">
+        Deploy and Configure ONTAP Select in the VMware Virtual Infrastructure Automated Deployment
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deploy NetApp Trident Automated Deployment"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_deploy_netapp_trident_automated_deployment.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hciaiedge_deploy_netapp_trident_automated_deployment.html">
+        Deploy NetApp Trident Automated Deployment
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deploy NVIDIA Triton Inference Server Automated Deployment"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_deploy_nvidia_triton_inference_server_automated_deployment.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hciaiedge_deploy_nvidia_triton_inference_server_automated_deployment.html">
+        Deploy NVIDIA Triton Inference Server Automated Deployment
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Deploy the Client for Triton Inference Server Automated Deployment"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_deploy_the_client_for_triton_inference_server_automated_deployment.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hciaiedge_deploy_the_client_for_triton_inference_server_automated_deployment.html">
+        Deploy the Client for Triton Inference Server Automated Deployment
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Collect Inference Metrics from Triton Inference Server"
+      data-li-level="4#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_collect_inference_metrics_from_triton_inference_server.html" 
+    ><a class="ie-sidebar-menuitem-4 " href="/us-en/hci-solutions/hciaiedge_collect_inference_metrics_from_triton_inference_server.html">
+        Collect Inference Metrics from Triton Inference Server
+      </a></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Validation Results"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_validation_results.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hciaiedge_validation_results.html">
+        Validation Results
+      </a></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Additional Information"
+      data-li-level="3#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="/hciaiedge_additional_information.html" 
+    ><a class="ie-sidebar-menuitem-3 " href="/us-en/hci-solutions/hciaiedge_additional_information.html">
+        Additional Information
+      </a></li></ul></li></ul></li><li 
+      data-pdf-exists="true" 
+      data-pdf-filename="Security"
+      data-li-level="1" 
+      class=" sidebar-folder    "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="" 
+    ><a class="ie-sidebar-menuitem-1  ie-sidebar-button " href="#">
+        <img class="ie-sidebar-icon ie-sidebar-button open" src="/us-en/hci-solutions/images/link_expand.svg" alt="" />
+        <img class="ie-sidebar-icon ie-sidebar-button close" src="/us-en/hci-solutions/images/link_collapse.svg" alt="" />
+        <!--<div class="" style="display: inline;"> Security</div>-->
+         Security
+      </a>
+      <ul class="">
+        <li 
+      data-pdf-exists="false" 
+      data-pdf-filename="HCI Verified Architecture PCI DSS 3.2.1"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="http://www.netapp.com/us/media/wp-7327.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="http://www.netapp.com/us/media/wp-7327.pdf">
+        HCI Verified Architecture PCI DSS 3.2.1
+      </a></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="NIST Security Controls for FISMA with HyTrust for Multitenant Infrastructure"
+      data-li-level="2#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://www.netapp.com/us/media/nva-1143.pdf" 
+    ><a class="ie-sidebar-menuitem-2 " href="https://www.netapp.com/us/media/nva-1143.pdf">
+        NIST Security Controls for FISMA with HyTrust for Multitenant Infrastructure
+      </a></li></ul></li><li 
+      data-pdf-exists="false" 
+      data-pdf-filename="Solution Collection (login required)"
+      data-li-level="1#" 
+      class="   "
+      dale-page-url="/redhat_openshift_abstract.html" 
+      dale-entry-url="https://fieldportal.netapp.com/collections/895975" 
+    ><a class="ie-sidebar-menuitem-1 " href="https://fieldportal.netapp.com/collections/895975">
+        Solution Collection (login required)
+      </a></li></ul>
+</div>
+<script>
+
+  $(".ie-sidebar-button").click(function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    expandedLI = $('li.ie-sidebar-expand')
+
+    const li = $(this).closest("li");
+
+    const parentsLI = $(li).parents('li');
+
+    expandedLI.map(element => {
+      if (sidebarAccordion && !li.hasClass('ie-sidebar-expand') && jQuery.inArray(expandedLI[element], parentsLI) == -1) {
+        $(expandedLI[element]).toggleClass('ie-sidebar-expand');
+        $(expandedLI[element]).children("ul").animate({ height: 'toggle' }, 400, function () {
+          $(li).children("ul").toggleClass('ie-sidebar-open');
+
+        })
+      }
+
+    })
+
+    $(li).toggleClass('ie-sidebar-expand');
+    $(li).children("ul").animate({ height: 'toggle' }, 400, function () {
+      $(li).children("ul").toggleClass('ie-sidebar-open');
+    })
+  });
+
+
+  
+    $("li.ie-sidebar-selected").parents('ul').toggleClass("ie-sidebar-open");
+    $("li.ie-sidebar-selected").toggleClass("ie-sidebar-expand")
+    $("ul.ie-sidebar-open").parent().toggleClass("ie-sidebar-expand");
+    $("li.ie-sidebar-selected").children('ul').toggleClass("ie-sidebar-open")
+  
+  
+</script>
+    </div>
+</div>
+<script>
+
+    
+    let sidebarScrollTopPosition = 0;
+    $("#ie-new-toc").on("scroll", function () {
+        if (sidebarScrollTopPosition == 0) {
+            $.cookie("sidebarScroll", $("#ie-new-toc").scrollTop(), {
+                path: "/us-en/hci-solutions"
+            });
+        }
+
+        if ($("#ie-new-toc").scrollTop() > 0) {
+            $('#ie-product-identity-lockup').addClass('ie-addShadow');
+        } else {
+            $('#ie-product-identity-lockup').removeClass('ie-addShadow');
+        }
+    });
+
+    $(function () {
+        if ($.cookie("sidebarScroll")) {
+            $("#ie-new-toc").scrollTop($.cookie("sidebarScroll"));
+        }
+    });
+
+    function setSidebarBottom() {
+        const footerGap = PXinViewport($(".n-footer"));
+        document.getElementById("ie-new-sidebar").style.bottom = Math.max(0, footerGap) + "px";
+    }
+
+    window.onscroll = () => {
+        setSidebarBottom();
+    };
+
+    $("#sidebar-collapse").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        if ($.cookie("sidebarScroll")) {
+            sidebarScrollTopPosition = $.cookie("sidebarScroll");
+        }
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 350, function () {
+            $("#ie-new-sidebar-collapse").show();
+            $("#ie-new-sidebar").removeClass("open")
+            $("#ie-new-sidebar").addClass("close")
+            $("#ie-new-sidebar").removeAttr("style")
+        });
+        $(".ie-content-pane").animate({ width: (width + sidebarWidth), marginLeft: (marginLeft - sidebarWidth) }, 350, function () {
+            resizeContent()
+        })
+
+    });
+    $("#sidebar-expand").click(function (e) {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        e.preventDefault();
+        const width = $(".ie-content-pane").width();
+        const marginLeft = parseInt($(".ie-content-pane").css('marginLeft'));
+
+        $("#ie-new-sidebar").animate({ width: 'toggle' }, 250, function () {
+            $('#ie-new-sidebar').css('display', 'flex');
+            $("#ie-new-sidebar-collapse").hide();
+            $("#ie-new-sidebar").removeClass("close")
+            $("#ie-new-sidebar").addClass("open")
+            setSidebarBottom();
+
+            if (sidebarScrollTopPosition != 0) {
+                $.cookie("sidebarScroll", sidebarScrollTopPosition, {
+                    path: "/us-en/hci-solutions"
+                })
+                $("#ie-new-toc").scrollTop(sidebarScrollTopPosition);
+                sidebarScrollTopPosition = 0;
+            }
+        });
+        $(".ie-content-pane").animate({ width: (width - sidebarWidth), 'marginLeft': (marginLeft + sidebarWidth) }, 250, function () {
+            resizeContent()
+        })
+    });
+    function resizeContent() {
+        const sidebarWidth = $("#ie-new-sidebar").width() - $("#ie-new-sidebar-collapse").width();
+        const rightNavbarVisible =  $("#ie-right-navbar").css('display') && $("#ie-right-navbar").css('display') != 'none';
+        const sidebarVisible = $("#ie-new-sidebar").css('display') != 'none';
+        const rightNavbarWidth = $("#ie-right-navbar").width();
+        const rightNavbarCollapseWidth = $("#ie-right-navbar-collapse").width();
+        const rightNavbarCollapseVisible = $("#ie-right-navbar-collapse").css('display') && $("#ie-right-navbar-collapse").css('display') != 'none';
+        
+        if (rightNavbarVisible && sidebarVisible) {
+            $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarWidth}px)`)
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+        } else if (sidebarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${sidebarWidth}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${sidebarWidth + rightNavbarCollapseWidth}px)`)
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar").width()}px)`)
+            }
+
+        } else if (rightNavbarVisible) {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            $(".ie-content-pane").width(`calc(100% - ${rightNavbarWidth}px)`)
+        } else {
+            $(".ie-content-pane").css('marginLeft', `${$("#ie-new-sidebar-collapse").width()}px`)
+            if (rightNavbarCollapseVisible) {
+                $(".ie-content-pane").width(`calc(100% - ${rightNavbarCollapseWidth}px)`);
+            } else {
+                $(".ie-content-pane").width(`calc(100% - ${$("#ie-new-sidebar-collapse").width()}px) `);
+            }
+            
+        }
+    }
+    $(window).on("resize load", function () {
+        setSidebarBottom();
+        resizeContent()
+    });
+
+
+</script>
+
+<div class="ie-content-pane ie-component-detail-content ie-component-detail-content--show-code">
+    <!-- Begin of page container --><article class="page-content" id="main">
+      <!-- include utility.html -->
+      <div class="ie-component-detail-heading-wrap">
+  <h1 class="ie-component-detail-heading">Abstract</h1>
+</div>
+
+<div id="ie-byline">
+  
+<div class="page-details">
+    
+        
+            <time datetime="2020-06-26 21:07:51 +0000">06/26/2020</time>
+        
+    
+    
+        <span>Contributors
+        </span>
+    
+    
+</div>
+<div class="page-controls">
+    <div id="contribute-dropdown" class="custom-dropdown custom-dropdown-contrib" >
+        <div class="custom-dropdown-select custom-dropdown-select-contrib">
+        <span class="contrib-name"><img src="/us-en/hci-solutions/images/discuss-sm.svg" alt="" class="github-icon" />Suggest changes</span>
+        <img src="/us-en/hci-solutions/images/dropdown-arrow.svg" alt="" class="custom-icon chevrondown invisible" />
+        <img src="/us-en/hci-solutions/images/dropdown-arrow.svg" alt="" class="custom-icon chevronup" />
+        </div>
+        <ul class="custom-dropdown-menu suggested-changes-dropdown"><li>
+                <a target="_blank" href="https://github.com/NetAppDocs/hci-solutions/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/us-en/hci-solutions/redhat_openshift_abstract.html&page-title=Abstract" class="page-nav-contribute-link" role="button">Request doc changes</a>
+            </li><li> 
+                <a target="_blank" href="https://github.com/NetAppDocs/hci-solutions/blob/main/redhat_openshift_abstract.adoc" class="page-nav-contribute-link" role="button">Edit this page</a>
+            </li><li><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  >Learn how to contribute</a></li>
+        </ul>
+    </div>
+    <div id="pdf-control-container">
+        <div class="n-pdf-header">
+            <a id="toggleButtonPdf" class="n-pdf-button" type="button">
+                <img class="adobe-icon" src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>PDFs<img src="/us-en/hci-solutions/images/dropdown-arrow.svg" class="custom-icon" alt="" />
+            </a>
+        </div>
+        <div class="n-pdf-body-container">
+            <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+                    
+                    
+                    
+                    <a target="_blank" class="pdf-download-link" href="/us-en/hci-solutions/pdfs/fullsite-sidebar/NetApp_HCI_Solutions.pdf" >
+                    <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>PDF of this doc site</a>
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Private_Cloud.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Private Cloud
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/End_User_Computing__EUC_.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            End User Computing (EUC)
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Hybrid_Cloud_VDI_with_NetApp_Virtual_Desktop_Service.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Hybrid Cloud VDI with NetApp Virtual Desktop Service
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/HCI_for_Citrix_Virtual_Apps.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            HCI for Citrix Virtual Apps
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Infrastructure.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Infrastructure
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/NetApp_HCI_with_Red_Hat_Virtualization.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            NetApp HCI with Red Hat Virtualization
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Deployment_Procedures__NetApp_HCI_with_RHV.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Deployment Procedures  NetApp HCI with RHV
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Best_Practices_for_Production_Deployments.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Best Practices for Production Deployments
+          </a>
+          
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/NetApp_HCI_with_Cisco_ACI.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            NetApp HCI with Cisco ACI
+          </a>
+          
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Deploying_NetApp_HCI_with_Cisco_ACI.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Deploying NetApp HCI with Cisco ACI
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Containers_and_DevOps.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Containers and DevOps
+          </a>
+          
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/NetApp_HCI_with_Anthos.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            NetApp HCI with Anthos
+          </a>
+          
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Deployment_Steps.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Deployment Steps
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/NetApp_HCI_for_Red_Hat_OpenShift_on_Red_Hat_Virtualization.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            NetApp HCI for Red Hat OpenShift on Red Hat Virtualization
+          </a>
+          
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Deploying_NetApp_HCI_for_Red_Hat_OpenShift_on_RHV.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Deploying NetApp HCI for Red Hat OpenShift on RHV
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Database.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Database
+          </a>
+          
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Data_Fabric.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Data Fabric
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Data_Protection.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Data Protection
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/NetApp_HCI_Disaster_Recovery_with_Cleondris.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            NetApp HCI Disaster Recovery with Cleondris
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Artificial_Intelligence__AI_.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Artificial Intelligence (AI)
+          </a>
+          
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/AI_Inferencing_on_the_Edge_Data_Center_with_H615c_and_NVIDIA_T4.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            AI Inferencing on the Edge Data Center with H615c and NVIDIA T4
+          </a>
+          
+
+
+
+
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Deploying_NetApp_HCI___AI_Inferencing_at_the_Edge.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Deploying NetApp HCI – AI Inferencing at the Edge
+          </a>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+    
+      <ul class="subfolders" style="display:none;">
+        <li class="pdf-ux-container">
+          
+          
+          
+          <a target="_blank" class="pdf-download-link"
+            
+              href="/us-en/hci-solutions/pdfs/sidebar/Security.pdf" 
+            
+          >
+            <img src="/us-en/hci-solutions/images/pdf-icon.png" alt="" width="16" height="16"/>
+            Security
+          </a>
+          
+
+
+
+
+        </li>
+      </ul>
+    
+
+  
+
+
+
+</li></ul>
+            <div class="zip-pdf-link-container" style="display: none;">   
+                <a href="#" id="zipPdf">
+                <img src="/us-en/hci-solutions/images/pdf-zip.png" alt="" width="16" height="16"/>
+                <pre>Collection of separate PDF docs<span class="zip-size"></span></pre>
+                </a><div id="zip-link-popup" class="hide">
+    <div class="inner-modal">
+        <div class="downloading-progress">
+            <div class="spinner"></div>
+            <h1>Creating your file...</h1>
+            <div>This may take a few minutes. Thanks for your patience.</div>
+            <button class="cancel-download-btn" type="button">Cancel</button>
+        </div>
+        <div class="download-complete hide">
+            <div class="done-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20.285 2l-11.285 11.567-5.286-5.011-3.714 3.716 9 8.728 15-15.285z"/></svg>
+            </div>
+            <div>Your file is ready</div>
+            <button class="cancel-download-btn" type="button">OK</button>
+        </div>
+    </div>
+</div>
+<script>
+    $(".cancel-download-btn").click(function(){
+        $("#zip-link-popup").addClass("hide");
+        $("#zip-link-popup .downloading-progress").removeClass("hide");
+        $("#zip-link-popup .download-complete").addClass("hide");
+    });
+</script></div>
+        </div>
+    </div>        
+<script>
+$("#toggleContainerPdf li.active:last-child").parents('ul.subfolders').toggle('display');
+$("#toggleButtonPdf").on('click', function(e){ 
+    e.stopPropagation();
+    $("#toggleContainerPdf").toggle('display');
+    $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+});
+
+//hide is by clicking outside pdfcontainer
+$(document).on('click', function (e) {
+    if ($('#toggleContainerPdf').is(':visible') && !$('.n-pdf-body-container').is(e.target) && !$('.n-pdf-body-container').has(e.target).length)  {
+        
+        $("#toggleContainerPdf").toggle('display');
+        $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
+        $("#toggleButtonPdf").removeClass("active");
+    }
+});
+</script>
+<script>
+    function getPdfLocation() {
+        const pdfLocation = window.scrollX + document.querySelector('#pdf-control-container').getBoundingClientRect().left
+        if (pdfLocation < 450) {
+            $(".n-pdf-body-container").addClass("block")
+        } else {
+            $(".n-pdf-body-container").removeClass("block")
+        }
+    
+    }
+    $( window ).on( "resize", function() {
+        getPdfLocation()
+} );
+</script>
+<script>
+    const pdfButtonWidth =  $(".n-pdf-header").width();
+    const pdfMenuWidth = $(".n-pdf-body-container").width();
+    $(".n-pdf-body-container").css('margin-left', `calc(${pdfButtonWidth - pdfMenuWidth}px)`);
+</script>
+</div>
+
+    
+
+</div>
+
+
+
+
+<div class="content-to-index">
+<div class="paragraph lead">
+<p>This NetApp HCI for Red Hat OpenShift on Red Hat Virtualization (RHV) deployment guide is for the fully automated installation of Red Hat OpenShift through the Installer Provisioned Infrastructure (IPI) method onto the verified enterprise architecture of NetApp HCI for Red Hat Virtualization described in NVA-1148: NetApp HCI with Red Hat Virtualization. This reference document provides deployment validation of the Red Hat OpenShift solution, integration of the NetApp Trident storage orchestrator, and a solution verification consisting of an example application deployment.</p>
+</div>
+</div>
+
+
+
+
+    </article>
+    <!-- Page Container -->
+  </div>
+
+  
+  <!-- Start Page Toolbar -->
+<div id="ie-right-navbar-collapse" class="close">
+  <img id="navbar-expand" class="ie-searchbox-icon" src="/us-en/hci-solutions/images/double_arrow.svg" alt="" />
+</div>
+<div id="ie-right-navbar" class="open">
+  <div id="right-navbar-collapse">
+    <img src="/us-en/hci-solutions/images/double_arrow.svg" alt="" />
+  </div>
+  <div class="page-nav-container">
+    <nav class="page-nav-fixed">
+      <div class="page-nav-title">On this page</div>
+      <div class="page-nav-links">
+        <ul class="page-nav-inner" id="page-menu"></ul>
+      </div>
+    </nav>
+  </div>
+</div>
+
+
+<script>
+  resizeContent();
+  function setRightBarHeight() {
+    var h = 0;
+
+    // header 1
+    h += PXinViewport($('.n-footer'));
+    h += PXinViewport($('#ie-new-header'));
+
+    if ($('#ie-right-navbar').length) {
+      $('#ie-right-navbar').css({ height: `calc(100vh - ${h}px)` });
+    }
+    if ($('.page-nav-links').length) {
+      h += 98;
+      $('.page-nav-links').css({ height: `calc(100vh - ${h}px)` });
+    }
+  }
+
+  $(document).ready(function () {
+    // PAGE NAV - Click
+    const MASTHEAD_OFFSET = 65;
+    const SECTIONS = $("main h2, main h3");
+    let calculateActiveSection = false;
+    setTimeout(() => {
+      calculateActiveSection = true;
+    }, 100)
+
+    $(".page-nav__link").click(function (event) {
+      calculateActiveSection = false;
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      var target = $(event.target);
+      target.addClass('page-nav__link--active');
+      location.hash = event.target.hash;
+      setTimeout(() => {
+        calculateActiveSection = true;
+      }, 100)
+
+    });
+
+    // PAGE NAV - Scroll
+    $(window).on('resize scroll', function () {
+      if (calculateActiveSection) {
+        var activeSection = getActiveSection(SECTIONS, MASTHEAD_OFFSET);
+        if (activeSection) {
+          var activeHref = $(activeSection).attr('id');
+          $(".page-nav__link").removeClass('page-nav__link--active');
+          $("#page-menu a[href=#" + activeHref + "]").addClass('page-nav__link--active');
+          if (location.hash != "#" + activeHref) {
+            if (history.replaceState) {
+              history.replaceState(null, null, "#" + activeHref);
+            }
+          }
+        }
+      }
+    });
+
+    $(".n-pdf-button").click(function () {
+      $(this).toggleClass("active");
+    });
+
+    $.fn.isVisibleAndInViewport = function () {
+      var elementTop = $(this).offset().top;
+      var elementBottom = elementTop + $(this).outerHeight();
+
+      var viewportTop = $(window).scrollTop();
+      var viewportBottom = viewportTop + $(window).height();
+
+      return elementBottom > viewportTop && elementTop < viewportBottom && $(this).is(":visible");
+    };
+
+
+    $(window).on('resize scroll', function () {
+      setRightBarHeight();
+    });
+
+    $(window).trigger('resize');
+
+
+  });
+
+  $("#right-navbar-collapse").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 350, function () {
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+    });
+    $(".ie-content-pane").animate({ width: (width + rightNavbarWidth) }, 350, function () {
+      resizeContent()
+      setSidebarBottom();
+    })
+
+  });
+  $("#navbar-expand").click(function (e) {
+    const rightNavbarWidth = $("#ie-right-navbar").width() - $("#ie-right-navbar-collapse").width();
+    e.preventDefault();
+    const width = $(".ie-content-pane").width();
+    $("#ie-right-navbar").animate({ width: 'toggle' }, 250, function () {
+      $("#ie-right-navbar-collapse").removeClass("open")
+      $("#ie-right-navbar-collapse").addClass("close")
+      $("#ie-right-navbar").removeClass("close")
+      $("#ie-right-navbar").addClass("open")
+      setRightBarHeight();
+      setSidebarBottom();
+    });
+    $(".ie-content-pane").animate({ width: (width - rightNavbarWidth) }, 250, function () {
+      resizeContent()
+    })
+  });
+
+  function navbarResize() {
+    const rightNavbarResized = $("#ie-right-navbar-collapse").hasClass('resized');
+    if (window.innerWidth < 1024) {
+      $("#ie-right-navbar").removeClass("open")
+      $("#ie-right-navbar").addClass("close")
+      $("#ie-right-navbar").removeAttr("style")
+      $("#ie-right-navbar-collapse").removeClass("close")
+      $("#ie-right-navbar-collapse").addClass("open")
+      $("#ie-right-navbar-collapse").addClass("resized")
+    } else {
+      if (rightNavbarResized) {
+        $('#ie-right-navbar').removeClass('close');
+        $('#ie-right-navbar').addClass('open');
+        $("#ie-right-navbar-collapse").removeClass("resized")
+        $("#ie-right-navbar-collapse").removeClass("open")
+        $("#ie-right-navbar-collapse").addClass("close")
+      }
+    }
+    resizeContent()
+  }
+  navbarResize();
+  $(window).on('resize load', function () {
+    navbarResize()
+  });
+
+  function getActiveSection(sections, offset) {
+    var scrollPosition = $(window).scrollTop() + offset + 5;
+    var activeSection;
+    for (var i = 0; i < sections.length; i++) {
+      var el = $(sections[i]);
+      var activePosition = el.offset().top;
+      if (activePosition > scrollPosition) {
+        break;
+      }
+
+      activeSection = sections[i];
+    }
+
+    return activeSection;
+  }
+
+  $("a[href*=#]:not([href=#])").click(function () {
+    setTimeout(() => {
+      $(window).trigger('scroll');
+    }, 105)
+  })
+
+  const hashOnLoad = location.href.split("#")[1];
+  setTimeout(function () {
+    if (hashOnLoad) {
+      $(".page-nav__link").removeClass('page-nav__link--active');
+      $("#page-menu a[href=#" + hashOnLoad + "]").addClass('page-nav__link--active');
+    }
+  }, 100)
+
+</script>
+
+
+  <div style="clear: both"></div><!-- Main needs to have height --></div>
+
+        </main>
+
+        <footer class="n-footer">
+  <div class="n-footer__bottom">
+    <div class="n-container">
+        <div class="n-footer__left">
+          <li class="n-footer__copyright-link">
+                    <a href="https://www.netapp.com/company/legal/copyright/">© 2024 NetApp, Inc.</a>
+          </li>
+        </div>
+        <div class="n-footer__center">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">Terms of use</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">Privacy policy</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">Cookie policy</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">Cookie settings</a>
+            </li>
+          </ul>
+       </div>
+        <div class="n-footer__right">
+              <li class="n-footer__copyright-link">
+                <a target="_self" href="javascript:netapp_mailto()">Send feedback about this page</a>
+              </li>
+        </div>
+     </div>
+  </div>
+</footer>
+
+      </div><!-- Elasticsearch JS -->
+      <script type="text/javascript" src='/us-en/hci-solutions/js/bundle.js'></script>
+
+      <!-- Syntax Highlighting -->
+      <script type="text/javascript" src='/us-en/hci-solutions/js/prism.js'></script>
+      <script type="text/javascript" src='/us-en/hci-solutions/js/prism-curl.js'></script>
+    </div>
+    <script>
+      document.body.offsetWidth=1903;
+      cookieLaw = {}
+      cookieLaw.euCountry = "US";
+      cookieLaw.invoke = function(){return false;}
+    </script>
+    <script src='/us-en/hci-solutions/js/ie-tabbed-blocks.js'></script>
+    <script src='/us-en/hci-solutions/js/ie-sidebar.js'></script>
+  </body>
+
+</html>
