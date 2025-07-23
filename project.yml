@@ -1,4 +1,5 @@
 ---
+jekyll: legal-external
 settings:
   name: NetApp HCI Solutions
   internal:
