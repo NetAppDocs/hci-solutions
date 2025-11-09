@@ -38,7 +38,7 @@ NetApp HCI offers differentiation in the hyperconverged market for this inferenc
 * NetApp HCI can host inference servers on the same infrastructure concurrently with multiple workloads, either virtual-machine (VM) or container-based, without performance degradation.
 * NetApp HCI is certified as NVIDIA GPU Cloud (NGC) ready for NVIDIA AI containerized applications.
 * NGC-ready means that the stack is validated by NVIDIA, is purpose built for AI, and enterprise support is available through NGC Support Services.
-* With its extensive AI portfolio, NetApp can support the entire spectrum of AI use cases from edge to core to cloud, including ONTAP AI for training and inferencing, Cloud Volumes Service and Azure NetApp Files for training in the cloud, and inferencing on the edge with NetApp HCI.
+* With its extensive AI portfolio, NetApp can support the entire spectrum of AI use cases from edge to core to cloud, including ONTAP AI for training and inferencing, Google Cloud NetApp Volumes and Azure NetApp Files for training in the cloud, and inferencing on the edge with NetApp HCI.
 
 
 link:hciaiedge_use_cases.html[Next: Use Cases]

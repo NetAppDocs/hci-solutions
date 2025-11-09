@@ -102,7 +102,8 @@ Trident currently supports storage orchestration across the following platforms:
 * NetApp SANtricity software: E-Series and EF-series
 * Cloud Volumes ONTAP
 * Azure NetApp Files
-* NetApp Cloud Volumes Service: AWS and Google Cloud
+* Amazon FSx for NetApp ONTAP
+* Google Cloud NetApp Volumes
 
 Trident is a simple but powerful tool to enable storage orchestration not just across multiple storage platforms, but also across the entire spectrum of the AI data lifecycle, ranging from the edge to the core to the cloud.
 
